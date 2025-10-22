@@ -1,0 +1,51 @@
+{
+  "home-2.jsx -> @components/sliders/Partners": {
+    "id": 9923,
+    "files": [
+      "static/chunks/949-242419a2bbf4529e.js",
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/69.f7eacdbb1eb4878e.js"
+    ]
+  },
+  "home-2.jsx -> @components/sliders/Testimonial": {
+    "id": 1563,
+    "files": [
+      "static/chunks/949-242419a2bbf4529e.js",
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/416.a10dd334f5865677.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Instagram": {
+    "id": 5183,
+    "files": [
+      "static/chunks/949-242419a2bbf4529e.js",
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/83.2bcb73c6e5096fc1.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Partners": {
+    "id": 9923,
+    "files": [
+      "static/chunks/949-242419a2bbf4529e.js",
+      "static/css/e7f2c32b53a96c4e.css",
+      "static/chunks/69.f7eacdbb1eb4878e.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Projects": {
+    "id": 7128,
+    "files": [
+      "static/chunks/fe75db45-7d04aefde01b734e.js",
+      "static/chunks/641-3ad23faba1d06e1c.js",
+      "static/chunks/998-c1232a7088e17c6a.js",
+      "static/chunks/949-242419a2bbf4529e.js",
+      "static/css/4bf7f3d7c5379e34.css",
+      "static/chunks/647.783c59f54095127c.js"
+    ]
+  },
+  "index.jsx -> @components/sliders/Testimonial": {
+    "id": 1563,
+    "files": [
+      "static/chunks/563.9a6a26fedde0e1fe.js"
+    ]
+  }
+}
