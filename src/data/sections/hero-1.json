@@ -1,9 +1,9 @@
 {
-    "bg_image": "img/hero/1.jpg",
-    "subtitle": "Welcome friend!",
-    "title": { "before": "Writing", "accent": "Content", "after": "Like You've Never Had Before" },
-    "description": "Dicta sunt explicabo. Nemo enim ipsam <br />voluptatem quia voluptas sit",
-    "image": "img/hero/2.jpg",
+    "bg_image": "img/hero/3.png",
+    "subtitle": "Creative Digital Agency",
+    "title": { "before": "Crafting", "accent": "Digital", "after": "Experiences That Matter" },
+    "description": "We transform ideas into exceptional digital solutions, <br />bringing your vision to life with innovation and precision",
+    "image": "img/hero/4.png",
     "partners": [
         {
             "image": "img/partners/1.svg",

@@ -1,21 +1,21 @@
 {
-    "subtitle": "Our team",
-    "title": "Meet our friendly team of professionals.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, rem labore et delectus aspernatur! Sequi debitis vero, molestiae tempore eligendi quam sit repudiandae deleniti alias quority.",
+    "subtitle": "Our Talent",
+    "title": "Creative Minds Behind Digital Excellence",
+    "description": "Our diverse team of strategists, designers, and developers brings together years of industry expertise to deliver innovative digital solutions. Each member contributes unique skills and perspectives to create exceptional results for our clients.",
     "more": {
-        "label": "Read more",
+        "label": "Meet the Team",
         "link": "/team"
     },
     "items": [
         {
             "image": "img/team/1.png",
-            "name": "Emma Newman",
-            "role": "Copywriter"
+            "name": "Sarah Chen",
+            "role": "Creative Director"
         },
         {
             "image": "img/team/2.png",
-            "name": "Emma Newman",
-            "role": "Copywriter"
+            "name": "Alex Rodriguez",
+            "role": "Lead Designer"
         },
         {
             "image": "img/team/3.png",

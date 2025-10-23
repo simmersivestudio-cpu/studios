@@ -1,13 +1,13 @@
 {
-    "subtitle": "Our story.",
-    "title": "A professional writer makes a big difference.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, rem labore et delectus aspernatur! Sequi debitis vero, molestiae tempore eligendi quam sit repudiandae deleniti alias quority accusamus.",
+    "subtitle": "Who We Are",
+    "title": "Where Innovation Meets Design Excellence",
+    "description": "As a forward-thinking digital agency, we combine strategic thinking with cutting-edge technology to create meaningful digital experiences. Our team of experts brings together creativity and technical expertise to deliver solutions that drive real business growth.",
     "button1": {
-        "label": "More about us",
+        "label": "Our Process",
         "link": "about"
     },
     "button2": {
-        "label": "View portfolio",
+        "label": "View Work",
         "link": "portfolio"
     },
     "image": {
