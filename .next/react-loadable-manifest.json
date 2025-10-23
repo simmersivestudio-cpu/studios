@@ -1,8 +1,38 @@
 {
+  "home-2.jsx -> @components/sliders/Partners": {
+    "id": "home-2.jsx -> @components/sliders/Partners",
+    "files": [
+      "static/chunks/src_components_sliders_Partners_jsx.js"
+    ]
+  },
+  "home-2.jsx -> @components/sliders/Testimonial": {
+    "id": "home-2.jsx -> @components/sliders/Testimonial",
+    "files": [
+      "static/chunks/src_components_sliders_Testimonial_jsx-_ab6d0.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Instagram": {
+    "id": "home-3.jsx -> @components/sliders/Instagram",
+    "files": [
+      "static/chunks/src_components_sliders_Instagram_jsx.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Partners": {
+    "id": "home-3.jsx -> @components/sliders/Partners",
+    "files": [
+      "static/chunks/src_components_sliders_Partners_jsx.js"
+    ]
+  },
+  "home-3.jsx -> @components/sliders/Projects": {
+    "id": "home-3.jsx -> @components/sliders/Projects",
+    "files": [
+      "static/chunks/src_components_sliders_Projects_jsx.js"
+    ]
+  },
   "index.jsx -> @components/sliders/Testimonial": {
     "id": "index.jsx -> @components/sliders/Testimonial",
     "files": [
-      "static/chunks/src_components_sliders_Testimonial_jsx.js"
+      "static/chunks/src_components_sliders_Testimonial_jsx-_ab6d1.js"
     ]
   }
 }
