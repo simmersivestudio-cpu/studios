@@ -1,0 +1,15 @@
+{
+    "video_file": "/videos/hero-video.mp4",
+    "poster": "/img/hero/1.jpg",
+    "subtitle": "Creative Digital Agency",
+    "title": {
+        "before": "Crafting",
+        "accent": "Digital",
+        "after": "Experiences That Matter"
+    },
+    "description": "We transform ideas into exceptional digital solutions, <br />bringing your vision to life with innovation and precision",
+    "button": {
+        "label": "Start Your Project",
+        "link": "/contact"
+    }
+}

@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 import { getSortedPostsData } from "@library/posts";
 
-import HeroOneSection from "@components/sections/HeroOne"
+import HeroVideoSection from "@components/sections/HeroVideo"
 import AboutSection from "@components/sections/About";
 import ServicesSection from "@components/sections/Services";
 import TeamSection from "@components/sections/Team";
@@ -18,7 +18,7 @@ const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial
 const Home1 = (props) => {
   return (
     <Layouts transparent>
-      <HeroOneSection />
+      <HeroVideoSection />
       <AboutSection />
       <ServicesSection />
       <AboutTwoSection />
