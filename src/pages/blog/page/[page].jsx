@@ -4,11 +4,26 @@ import Pagination from '@components/Pagination'
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 
-import { getPaginatedPostsData } from "@library/posts";
+import { getPaginatedPostsData, getAllPosts } from "@library/posts";
 
 export const PER_PAGE = 9
 
 import { Content } from "../../blog"
+
+export async function getStaticPaths() {
+  const posts = getAllPosts();
+  const totalPages = Math.ceil(posts.length / PER_PAGE);
+  
+  // Pre-render the first 5 pages at build time
+  const paths = Array.from({ length: Math.min(5, totalPages) }, (_, i) => ({
+    params: { page: String(i + 1) }
+  }));
+
+  return {
+    paths,
+    fallback: 'blocking' // Show a loading state for non-generated pages
+  };
+}
 
 const Blog = ( { posts, currentPage, totalPosts } ) => {
 
@@ -58,13 +73,6 @@ const Blog = ( { posts, currentPage, totalPosts } ) => {
 };
 export default Blog;
 
-export async function getStaticPaths() {
-    return {
-        paths: Array.from({ length: 5 }).map((_, i) => `/blog/page/${i + 2}`),
-        fallback: 'blocking',
-    }
-}
-
 export async function getStaticProps( { params } ) {
     const page = Number(params?.page) || 1
     const { posts, total } = getPaginatedPostsData( PER_PAGE, page );
@@ -75,21 +83,12 @@ export async function getStaticProps( { params } ) {
       }
     }
   
-    if (page === 1) {
-      return {
-        redirect: {
-          destination: '/blog',
-          permanent: false,
-        },
-      }
-    }
-  
     return {
       props: {
         posts,
         totalPosts: total,
         currentPage: page,
       },
-      revalidate: 60 * 60 * 24, // <--- ISR cache: once a day
+      revalidate: 3600 // Revalidate every hour
     }
 }
