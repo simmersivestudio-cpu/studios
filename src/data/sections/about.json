@@ -3,12 +3,12 @@
     "title": "Where Innovation Meets Design Excellence",
     "description": "As a forward-thinking digital agency, we combine strategic thinking with cutting-edge technology to create meaningful digital experiences. Our team of experts brings together creativity and technical expertise to deliver solutions that drive real business growth.",
     "button1": {
-        "label": "Our Process",
+        "label": "More about us",
         "link": "about"
     },
     "button2": {
-        "label": "View Work",
-        "link": "portfolio"
+        "label": "View portfolio",
+        "link": "portfolio-2"
     },
     "image": {
         "front": "img/content/2.jpg",

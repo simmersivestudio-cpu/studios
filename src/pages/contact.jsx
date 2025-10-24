@@ -12,12 +12,12 @@ const Contact = () => {
       {
         "icon": "img/icons/4.svg",
         "label": "Support email",
-        "value": "mil.design.inbox@mail.com"
+        "value": "simmersivestudio@gmail.com"
       },
       {
         "icon": "img/icons/7.svg",
-        "label": "Call 24/7",
-        "value": "+49 (055) 742 78 84"
+        "label": "ET 6am to 9pm",
+        "value": "+1 (580) 514 9991"
       }
     ]
   }

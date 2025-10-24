@@ -223,3 +223,77 @@ body {
         fill: #fff;
     }
 }
+
+/***************************
+
+Navigation Hover Effects
+
+***************************/
+
+// Navigation menu hover effect - add underlines on hover
+.mil-top-panel {
+    nav {
+        ul {
+            > li {
+                > a.mil-link {
+                    &:hover {
+                        &:after {
+                            width: 100%;
+                            background-color: $accent-1;
+                        }
+                    }
+                }
+                
+                // Dropdown menu items - make bolder and add underline but keep original color
+                ul {
+                    li {
+                        a.mil-link {
+                            &:hover {
+                                font-weight: 700 !important;
+                                
+                                &:after {
+                                    width: 100%;
+                                    background-color: $dark;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // Also apply to mobile dropdown menu
+    .mil-mobile-dropdown {
+        nav {
+            ul {
+                > li {
+                    > a.mil-link {
+                        &:hover {
+                            &:after {
+                                width: 100%;
+                                background-color: $accent-1;
+                            }
+                        }
+                    }
+                    
+                    // Mobile dropdown submenu items - make bolder and add underline but keep original color
+                    ul {
+                        li {
+                            a.mil-link {
+                                &:hover {
+                                    font-weight: 700 !important;
+                                    
+                                    &:after {
+                                        width: 100%;
+                                        background-color: $dark;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
