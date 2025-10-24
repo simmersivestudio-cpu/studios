@@ -117,7 +117,7 @@
             ],
             "button": {
                 "label": "Our Instagram",
-                "link": "https://instagram.com"
+                "link": "https://www.instagram.com/immersive.studio.s/"
             }
         }
     },
@@ -127,27 +127,22 @@
     },
     "social": [
         {
-            "link": "https://tiktok.com",
+            "link": "https://www.tiktok.com/@immersive.studio.s",
             "icon": "fab fa-tiktok",
             "title": "TikTok"
         },
         {
-            "link": "https://youtube.com",
+            "link": "https://www.youtube.com/@Immersive.Studio.S",
             "icon": "fab fa-youtube",
             "title": "YouTube"
         },
         {
-            "link": "https://linkedin.com",
+            "link": "https://www.linkedin.com/in/immersive-studio-s/",
             "icon": "fab fa-linkedin",
             "title": "LinkedIn"
         },
         {
-            "link": "https://twitter.com",
-            "icon": "fab fa-twitter",
-            "title": "Twitter"
-        },
-        {
-            "link": "https://instagram.com",
+            "link": "https://www.instagram.com/immersive.studio.s/",
             "icon": "fab fa-instagram",
             "title": "Instagram"
         }

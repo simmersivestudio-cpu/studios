@@ -42,7 +42,7 @@ const PortfolioTwo = (props) => {
   const Content = {
     "title": "Our recent work",
     "subtitle": "Portfolio",
-    "description": "Incidunt rerum neque sint omnis est ipsam nam. Esse natus, officiis illo rem beatae, ut iste quis iusto officia laudantium, sapiente veritatis."
+    "description": "A showcase of creative strategy and design innovation — where technology and storytelling come together."
   }
 
   return (
