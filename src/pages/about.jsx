@@ -17,10 +17,10 @@ const About = ( props ) => {
   const Content = {
     "about": {
       "subtitle": "Our story",
-      "title": "Writing content like you've never had before",
-      "text_1": "Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi.",
-      "text_2": "Exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima. Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione. Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi. Consectetur cupiditate vero."
-    },
+      "title": "Where Imagination Meets Intelligent Design",
+      "text_1": "Studio S is a multidisciplinary creative agency that blends design, technology, and storytelling to shape the next generation of brand experiences. We specialize in crafting social media and ad creatives, branding, web and email design, print and packaging, motion and video production, illustration, AR/3D content, and AI-enhanced creative strategy — all built to move audiences and inspire action.",
+       "text_2": " We believe creativity should evolve with technology. That’s why Studio S stands at the intersection of AI, AR, and VR, helping organizations and brands embrace emerging tools to tell stories in ways never before possible. To reimagine what’s possible in design and communication — by combining artistry, strategy, and the newest technology to shape the creative landscape of tomorrow.",
+       },
     "gallery": [
       {
         "url": "img/content/12.jpg",

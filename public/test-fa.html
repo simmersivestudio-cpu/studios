@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Test</title>
+    <link rel="stylesheet" href="/css/plugins/font-awesome.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .icon-test { margin: 10px; font-size: 24px; }
+        .icon-large { font-size: 48px; }
+    </style>
+</head>
+<body>
+    <h1>Font Awesome 7 Test</h1>
+    
+    <h2>Social Media Icons:</h2>
+    <div class="icon-test">
+        <i class="fab fa-tiktok icon-large"></i> TikTok (fab fa-tiktok)
+    </div>
+    <div class="icon-test">
+        <i class="fab fa-instagram icon-large"></i> Instagram (fab fa-instagram)
+    </div>
+    <div class="icon-test">
+        <i class="fab fa-youtube icon-large"></i> YouTube (fab fa-youtube)
+    </div>
+    <div class="icon-test">
+        <i class="fab fa-linkedin icon-large"></i> LinkedIn (fab fa-linkedin)
+    </div>
+    
+    <h2>Regular Icons:</h2>
+    <div class="icon-test">
+        <i class="fas fa-home icon-large"></i> Home (fas fa-home)
+    </div>
+    <div class="icon-test">
+        <i class="fas fa-envelope icon-large"></i> Email (fas fa-envelope)
+    </div>
+    
+    <h2>Debug Info:</h2>
+    <p>Font Awesome CSS loaded from: /css/plugins/font-awesome.min.css</p>
+    <p>Font files should be loading from: /fonts/webfonts/</p>
+    
+    <script>
+        // Check if fonts are loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Font Awesome test page loaded');
+            
+            // Check if Font Awesome CSS is loaded
+            const faStyles = getComputedStyle(document.querySelector('.fab'));
+            console.log('Font family:', faStyles.fontFamily);
+            
+            // Check for font loading errors
+            document.fonts.ready.then(function() {
+                console.log('All fonts loaded successfully');
+            });
+        });
+    </script>
+</body>
+</html>
