@@ -3,12 +3,25 @@ import Data from "@data/sections/hero-video.json";
 
 const HeroVideo = () => {
     const [isMuted, setIsMuted] = useState(true);
+    const [isPlaying, setIsPlaying] = useState(true);
     const videoRef = useRef(null);
 
     const toggleMute = () => {
         if (videoRef.current) {
             videoRef.current.muted = !isMuted;
             setIsMuted(!isMuted);
+        }
+    };
+
+    const togglePlayPause = () => {
+        if (videoRef.current) {
+            if (isPlaying) {
+                videoRef.current.pause();
+                setIsPlaying(false);
+            } else {
+                videoRef.current.play();
+                setIsPlaying(true);
+            }
         }
     };
 
@@ -51,6 +64,35 @@ const HeroVideo = () => {
                     }} />
                 </div>
 
+                {/* Control buttons */}
+                {/* Play/Pause button */}
+                <button 
+                    onClick={togglePlayPause}
+                    className="mil-play-toggle"
+                    aria-label={isPlaying ? "Pause video" : "Play video"}
+                    style={{
+                        position: 'absolute',
+                        top: '160px',
+                        right: '4%',
+                        zIndex: 10,
+                        background: 'rgba(255, 255, 255, 0.2)',
+                        border: '1px solid rgba(255, 255, 255, 0.3)',
+                        borderRadius: '50%',
+                        width: 'clamp(40px, 4vw, 60px)',
+                        height: 'clamp(40px, 4vw, 60px)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                        backdropFilter: 'blur(10px)'
+                    }}
+                >
+                    <i className={`fas ${isPlaying ? 'fa-pause' : 'fa-play'}`} 
+                       style={{ color: 'white', fontSize: 'clamp(16px, 2vw, 24px)' }} 
+                    />
+                </button>
+
                 {/* Mute/Unmute button */}
                 <button 
                     onClick={toggleMute}
@@ -58,14 +100,14 @@ const HeroVideo = () => {
                     aria-label={isMuted ? "Unmute video" : "Mute video"}
                     style={{
                         position: 'absolute',
-                        top: '100px',
-                        right: '30px',
+                        top: '160px',
+                        right: 'calc(4% + clamp(50px, 5vw, 70px))',
                         zIndex: 10,
                         background: 'rgba(255, 255, 255, 0.2)',
                         border: '1px solid rgba(255, 255, 255, 0.3)',
                         borderRadius: '50%',
-                        width: '50px',
-                        height: '50px',
+                        width: 'clamp(40px, 4vw, 60px)',
+                        height: 'clamp(40px, 4vw, 60px)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -75,7 +117,7 @@ const HeroVideo = () => {
                     }}
                 >
                     <i className={`fas ${isMuted ? 'fa-volume-mute' : 'fa-volume-up'}`} 
-                       style={{ color: 'white', fontSize: '20px' }} 
+                       style={{ color: 'white', fontSize: 'clamp(16px, 2vw, 24px)' }} 
                     />
                 </button>
 
@@ -136,7 +178,8 @@ const HeroVideo = () => {
                     width: 100%;
                     height: 100%;
                 }
-                .mil-sound-toggle:hover {
+                .mil-sound-toggle:hover,
+                .mil-play-toggle:hover {
                     background: rgba(255, 255, 255, 0.3) !important;
                     transform: scale(1.1);
                 }
@@ -145,12 +188,58 @@ const HeroVideo = () => {
                         animation: none !important;
                     }
                 }
-                @media (max-width: 768px) {
+                
+                /* Mobile and tablet responsive adjustments */
+                @media (max-width: 1200px) {
+                    .mil-sound-toggle,
+                    .mil-play-toggle {
+                        top: 140px !important;
+                        width: 50px !important;
+                        height: 50px !important;
+                    }
                     .mil-sound-toggle {
-                        top: 80px !important;
-                        right: 20px !important;
+                        right: 3% !important;
+                    }
+                    .mil-play-toggle {
+                        right: calc(3% + 60px) !important;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .mil-sound-toggle,
+                    .mil-play-toggle {
+                        top: 120px !important;
+                        width: 45px !important;
+                        height: 45px !important;
+                    }
+                    .mil-sound-toggle {
+                        right: 5% !important;
+                    }
+                    .mil-play-toggle {
+                        right: calc(5% + 55px) !important;
+                    }
+                    .mil-sound-toggle i,
+                    .mil-play-toggle i {
+                        font-size: 18px !important;
+                    }
+                }
+                
+                @media (max-width: 480px) {
+                    .mil-sound-toggle,
+                    .mil-play-toggle {
+                        top: 110px !important;
                         width: 40px !important;
                         height: 40px !important;
+                    }
+                    .mil-sound-toggle {
+                        right: 8% !important;
+                    }
+                    .mil-play-toggle {
+                        right: calc(8% + 50px) !important;
+                    }
+                    .mil-sound-toggle i,
+                    .mil-play-toggle i {
+                        font-size: 16px !important;
                     }
                 }
             `}</style>

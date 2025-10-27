@@ -1,27 +1,34 @@
 ---
 #preview
-title: Merch for MIL studio
-image: /img/portfolio/1.jpg
+title: The Project Azorian
+type: video
+image: https://bslthemes.com/mp4/lettery/3.mp4
 imageWidth: 1200
-imageHeight: 1200
+imageHeight: 800
 category:
-    - Content strategy
+     - Video
+# title: Merch for MIL studio
+# image: /img/portfolio/1.jpg
+# imageWidth: 1200
+# imageHeight: 1200
+# category:
+#     - Content strategy
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "CIA"
 
     - label: "Date"
-      value: "April 2022"
+      value: "Oct 2023"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Directoate of Analysis"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+       The Azorian Project was developed to tell the story of one of the most significant missions in U.S. intelligence history. Our goal was to bring this historical narrative to life through immersive storytelling, creating a powerful experience for U.S. museum visitors. The project was showcased at multiple events and presented to the broader intelligence community as part of a series of VR demonstrations, gaining considerable attention and positive feedback.
     "
 
 description1:
@@ -36,18 +43,18 @@ gallery:
     enabled: 1
     items:
         - image: /img/portfolio/project/2.jpg
-          width: 992
-          height: 1488
+          width: 2340
+          height: 1256
           alt: "image"
 
         - image: /img/portfolio/project/3.jpg
-          width: 2420
-          height: 3227
+          width: 1522
+          height: 1216
           alt: "image"
 
         - image: /img/portfolio/project/4.jpg
-          width: 992
-          height: 1558
+          width: 2160
+          height: 2160
           alt: "image"
 
     cols: 3
@@ -63,8 +70,8 @@ description2:
 finalImage:
     enabled: 1
     image: "/img/portfolio/project/5.jpg"
-    width: 1200
-    height: 960    
+    width: 2340
+    height: 1256    
     alt: "image"
 
 description3:
