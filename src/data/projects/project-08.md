@@ -2,11 +2,11 @@
 #preview
 title: Orange cider
 type: video
-image: https://bslthemes.com/mp4/lettery/12.mp4
+image: /img/portfolio/project8/1.mp4
 imageWidth: 1200
 imageHeight: 800
 category:
-     - Content strategy
+     - UI UX
 
 #full details
 details:

@@ -1,18 +1,12 @@
 ---
 #preview
 title: The Project Azorian
-type: video
-image: https://bslthemes.com/mp4/lettery/3.mp4
+# type: video
+image: /img/portfolio/project1/1.jpg
 imageWidth: 1200
 imageHeight: 800
 category:
-     - Video
-# title: Merch for MIL studio
-# image: /img/portfolio/1.jpg
-# imageWidth: 1200
-# imageHeight: 1200
-# category:
-#     - Content strategy
+     - VR
 
 #full details
 details:
@@ -42,17 +36,17 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
+        - image: /img/portfolio/project1/2.jpg
           width: 2340
           height: 1256
           alt: "image"
 
-        - image: /img/portfolio/project/3.jpg
+        - image: /img/portfolio/project1/3.jpg
           width: 1522
           height: 1216
           alt: "image"
 
-        - image: /img/portfolio/project/4.jpg
+        - image: /img/portfolio/project1/4.jpg
           width: 2160
           height: 2160
           alt: "image"
@@ -69,7 +63,7 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
+    image: "/img/portfolio/project1/5.jpg"
     width: 2340
     height: 1256    
     alt: "image"

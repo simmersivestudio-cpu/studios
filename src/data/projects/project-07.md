@@ -1,11 +1,11 @@
 ---
 #preview
 title: Workspace
-image: /img/portfolio/13.jpg
+image: /img/portfolio/project7/1.jpg
 imageWidth: 1200
 imageHeight: 1077
 category:
-     - Copywrite
+     - VIDEO
 
 #full details
 details:

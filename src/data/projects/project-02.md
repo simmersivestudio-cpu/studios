@@ -1,55 +1,64 @@
 ---
 #preview
-title: Pots for vases "Mimosa"
-image: /img/portfolio/2.jpg
+title: The White House Situation Room
+image: /img/portfolio/project2/1.jpg
 imageWidth: 1200
 imageHeight: 1217
 category: 
-    - SMM
+    - AI
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "White House"
 
     - label: "Date"
-      value: "April 2022"
+      value: "September 2023"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Directorate of Analysis"
 
 description0:
     enabled: 0
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        
     "
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Opening Ceremony Video for Situation Room"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        The Studio S team contributed to the official White House Situation Room Renovation Ceremony Video, commemorating the modernization of one of the most secure and historic spaces in America.
+
+        
+        The Situation Room — located beneath the West Wing — is where U.S. presidents have monitored global events and received top-secret intelligence for decades. Our team was honored to create a video that captured both the legacy and transformation of this iconic command center as it underwent its first major renovation in 15 years.
+
+
+        Our work received personal praise from President Joe Biden, recognizing the creative excellence and attention to detail that brought this milestone project to life.
+
+
+        Through refined motion design, historical storytelling, and cinematic production, we helped visualize a behind-the-scenes look at how innovation and technology continue to shape the nerve center of presidential decision-making.
     "
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
+        - image: /img/portfolio/project2/2.jpg
           width: 1200
           height: 1600
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
+        - image: /img/portfolio/project2/3.jpg
           width: 1200
           height: 800
           alt: "image"
 
-        - image: /img/portfolio/project/9.jpg
+        - image: /img/portfolio/project2/4.jpg
           width: 1200
           height: 800
           alt: "image"
 
-        - image: /img/portfolio/project/10.jpg
+        - image: /img/portfolio/project2/5.jpg
           width: 1200
           height: 800
           alt: "image"
@@ -66,13 +75,13 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/11.jpg"
+    image: "/img/portfolio/project2/6.jpg"
     width: 1200
     height: 800
     alt: "image"
 
 description3:
-    enabled: 1
+    enabled: 0
     heading: "Amet at odit pariatur eum tenetur"
     content: "
         Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione

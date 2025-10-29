@@ -297,3 +297,86 @@ Navigation Hover Effects
         }
     }
 }
+
+/***************************
+
+Portfolio Filter Buttons
+
+***************************/
+
+.mil-filter-tabs {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.mil-filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    @media (max-width: 768px) {
+        gap: 10px;
+    }
+}
+
+.mil-filter-btn {
+    background: $dark;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: $light;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    
+    @media (max-width: 768px) {
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+    
+    &:hover {
+        background: $accent-1;
+        border-color: $accent-1;
+        color: $dark;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba($accent-1, 0.3);
+    }
+    
+    &.mil-active {
+        background: $accent-1;
+        border-color: $accent-1;
+        color: $dark;
+        box-shadow: 0 2px 10px rgba($accent-1, 0.2);
+    }
+    
+    // Light background variant - keep same dark styling
+    .mil-content-frame & {
+        background: $dark;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: $light;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        
+        &:hover {
+            background: $accent-1;
+            border-color: $accent-1;
+            color: $dark;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba($accent-1, 0.3);
+        }
+        
+        &.mil-active {
+            background: $accent-1;
+            border-color: $accent-1;
+            color: $dark;
+            box-shadow: 0 2px 10px rgba($accent-1, 0.2);
+        }
+    }
+}

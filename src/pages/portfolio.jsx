@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 import Layouts from "@layouts/Layouts";
 
@@ -14,11 +14,32 @@ import Link from "next/link";
 
 const Portfolio = (props) => {
 
+  const [activeFilter, setActiveFilter] = useState('All');
+  const [isOpen, setOpen] = useState(false);
+  const [modalURL, setModalURL] = useState(false);
+
+  // Get unique categories from all projects
+  const categories = useMemo(() => {
+    const allCategories = props.projects.flatMap(project => project.category || []);
+    const uniqueCategories = [...new Set(allCategories)];
+    return ['All', ...uniqueCategories.sort()];
+  }, [props.projects]);
+
+  // Filter projects based on selected category
+  const filteredProjects = useMemo(() => {
+    if (activeFilter === 'All') {
+      return props.projects;
+    }
+    return props.projects.filter(project => 
+      project.category && project.category.includes(activeFilter)
+    );
+  }, [props.projects, activeFilter]);
+
   const rows = [];
   const projectsGrid = [];
 
-  for (var i = 0; i < props.projects.length; i += 5 ) {
-    rows.push(props.projects.slice(i, 5 + i));
+  for (var i = 0; i < filteredProjects.length; i += 5 ) {
+    rows.push(filteredProjects.slice(i, 5 + i));
   }
 
   rows.forEach( (row) => {
@@ -29,10 +50,6 @@ const Portfolio = (props) => {
     projectsGrid.push(row_rows);
   })
 
-  const [isOpen, setOpen] = useState(false);
-
-  const [modalURL, setModalURL] = useState(false);
-
   const openSingleModalVideo = (e) => {
     setModalURL(e.target.getAttribute('data-href'));
     setOpen(true);
@@ -42,6 +59,30 @@ const Portfolio = (props) => {
     <Layouts>
       
       <div className="mil-spacer-100 mil-spacer-dark" />
+
+      {/* portfolio filter */}
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="mil-filter-tabs mil-appearance">
+              <div className="mil-filter-buttons">
+                {categories.map((category, index) => (
+                  <button
+                    key={index}
+                    className={`mil-filter-btn ${activeFilter === category ? 'mil-active' : ''}`}
+                    onClick={() => setActiveFilter(category)}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* portfolio filter end */}
+
+      <div className="mil-spacer-60" />
 
       {/* portfolio */}
       <div className="mil-portfolio-fw mil-appearance">

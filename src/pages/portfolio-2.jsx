@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
@@ -15,11 +15,32 @@ import Link from "next/link";
 
 const PortfolioTwo = (props) => {
 
+  const [activeFilter, setActiveFilter] = useState('All');
+  const [isOpen, setOpen] = useState(false);
+  const [modalURL, setModalURL] = useState(false);
+
+  // Get unique categories from all projects
+  const categories = useMemo(() => {
+    const allCategories = props.projects.flatMap(project => project.category || []);
+    const uniqueCategories = [...new Set(allCategories)];
+    return ['All', ...uniqueCategories.sort()];
+  }, [props.projects]);
+
+  // Filter projects based on selected category
+  const filteredProjects = useMemo(() => {
+    if (activeFilter === 'All') {
+      return props.projects;
+    }
+    return props.projects.filter(project => 
+      project.category && project.category.includes(activeFilter)
+    );
+  }, [props.projects, activeFilter]);
+
   const rows = [];
   const projectsGrid = [];
 
-  for (var i = 0; i < props.projects.length; i += 5 ) {
-    rows.push(props.projects.slice(i, 5 + i));
+  for (var i = 0; i < filteredProjects.length; i += 5 ) {
+    rows.push(filteredProjects.slice(i, 5 + i));
   }
 
   rows.forEach( (row) => {
@@ -29,10 +50,6 @@ const PortfolioTwo = (props) => {
 
     projectsGrid.push(row_rows);
   })
-
-  const [isOpen, setOpen] = useState(false);
-
-  const [modalURL, setModalURL] = useState(false);
 
   const openSingleModalVideo = (e) => {
     setModalURL(e.target.getAttribute('data-href'));
@@ -53,10 +70,26 @@ const PortfolioTwo = (props) => {
       {/* portfolio */}
       <div className="container mil-content-frame mil-p-120-90 mil-appearance">
           <div className="row">
-            <div className="col-12 mil-text-center mil-appearance mil-mb-120">
+            <div className="col-12 mil-text-center mil-appearance mil-mb-60">
                 <h3 className="mil-link mil-appearance mil-accent mil-mb-30">{Content.subtitle}</h3>
                 <h3 className="mil-appearance mil-mb-30">{Content.title}</h3>
-                <p className="mil-text mil-appearance mil-shortened-50 m-auto">{Content.description}</p>
+                <p className="mil-text mil-appearance mil-shortened-50 m-auto mil-mb-60">{Content.description}</p>
+                
+                {/* portfolio filter buttons */}
+                <div className="mil-filter-tabs mil-appearance">
+                  <div className="mil-filter-buttons">
+                    {categories.map((category, index) => (
+                      <button
+                        key={index}
+                        className={`mil-filter-btn ${activeFilter === category ? 'mil-active' : ''}`}
+                        onClick={() => setActiveFilter(category)}
+                      >
+                        {category}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+                {/* portfolio filter buttons end */}
             </div>
           </div>
 

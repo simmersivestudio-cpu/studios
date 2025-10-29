@@ -1,11 +1,11 @@
 ---
 #preview
 title: Minimal priject book
-image: /img/portfolio/4.jpg
+image: /img/portfolio/project4/1.jpg
 imageWidth: 1200
 imageHeight: 928
 category:
-    - Content strategy
+    - UI UX
 
 #full details
 details:

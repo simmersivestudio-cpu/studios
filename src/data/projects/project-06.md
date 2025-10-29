@@ -1,11 +1,11 @@
 ---
 #preview
 title: Design literature
-image: /img/portfolio/12.jpg
+image: /img/portfolio/project6/1.jpg
 imageWidth: 1200
 imageHeight: 1798
 category:
-    - Design
+    - Ecommerce
 
 #full details
 details:

@@ -96,7 +96,7 @@ const ProjectDetail = ( props ) => {
                   <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description1.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description1.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description1.content}</p>
                   </div>
               </div>
               }

@@ -1,11 +1,11 @@
 ---
 #preview
 title: Psalms
-image: /img/portfolio/3.jpg
+image: /img/portfolio/project9/1.jpg
 imageWidth: 1200
 imageHeight: 1800
 category:
-    - Copywrite
+    - VIDEO
 
 #full details
 details:

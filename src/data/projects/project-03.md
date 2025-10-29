@@ -2,11 +2,11 @@
 #preview
 title: Merch for MIL studio
 type: video
-image: https://bslthemes.com/mp4/lettery/3.mp4
+image: /img/portfolio/project3/1.jpg
 imageWidth: 1200
 imageHeight: 800
 category:
-     - Copywrite
+     - VIDEO
 
 #full details
 details:
