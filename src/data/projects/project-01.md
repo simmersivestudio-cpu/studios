@@ -1,10 +1,10 @@
 ---
 #preview
 title: The Project Azorian
-# type: video
-image: /img/portfolio/project1/1.jpg
-imageWidth: 1200
-imageHeight: 800
+type: video
+image: /img/portfolio/project1/1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
      - VR
 
@@ -55,10 +55,16 @@ gallery:
     style: "vertical"
 
 description2:
-    enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
-    content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+    enabled: 0
+    heading: "Creative Tools:"
+    content: "Our production pipeline integrated a range of industry-standard creative tools:
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+        + Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+        
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
 
 finalImage:
@@ -70,9 +76,21 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Creative Tools"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        Our production pipeline integrated a range of industry-standard creative tools:
+
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+
+
+        Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+
+
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
 
 ---

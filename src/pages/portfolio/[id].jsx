@@ -80,7 +80,7 @@ const ProjectDetail = ( props ) => {
                 <>
                   {postData.description0.enabled == 1 &&
                   <div className="col-lg-10 col-xl-6">
-                      <p className="mil-first-letter mil-appearance">
+                      <p className="mil-first-letter mil-appearance" style={{whiteSpace: 'pre-line'}}>
                         {postData.description0.content}
                       </p>
                   </div>
@@ -135,11 +135,11 @@ const ProjectDetail = ( props ) => {
           {typeof postData.description2 != "undefined" &&
             <>
               {postData.description2.enabled == 1 &&
-              <div className="row justify-content-center mil-p-90-120">
-                  <div className="col-lg-10 col-xl-6">
+              <div className="row justify-content-center mil-p-0-0">
+                  <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description2.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description2.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description2.content}</p>
                   </div>
               </div>
               }
@@ -176,7 +176,7 @@ const ProjectDetail = ( props ) => {
                   <div className="col-lg-10 col-xl-6">
                       <h5 className="mil-appearance mil-mb-30">{postData.description3.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description3.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description3.content}</p>
                   </div>
               </div>
               }
