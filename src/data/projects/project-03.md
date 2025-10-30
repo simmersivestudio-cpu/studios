@@ -1,28 +1,37 @@
 ---
 #preview
-title: Merch for MIL studio
-type: video
+title: CIA Store Collection
+# type: video
 image: /img/portfolio/project3/1.jpg
-imageWidth: 1200
-imageHeight: 800
+imageWidth: 2000
+imageHeight: 1350
 category:
-     - VIDEO
+     - ECOMMERCE
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "CIA Store"
 
     - label: "Date"
-      value: "April 2022"
+      value: "Oct. 2025"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Studio S"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        The CIA Museum Store Collection by Studio S celebrates the rich legacy, innovation, and spirit of American intelligence through thoughtfully designed collectibles and museum-quality gift items.
+
+
+         Each product transforms history into art — from CIA Headquarters architectural posters and portraits of past Directors in collectible postcard form, to holiday ornaments, wrapping papers, and commemorative retirement frames that honor service and heritage.  
+        
+
+        Every piece is created with the same precision and integrity that define the Agency itself — blending artistic craftsmanship, storytelling, and design excellence.
+        
+
+        Our goal is to bring meaningful, timeless keepsakes to the museum store — items that inspire pride, curiosity, and connection to the extraordinary world of intelligence.
     "
 
 description1:
@@ -36,18 +45,18 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
-          width: 992
-          height: 1488
+        - image: /img/portfolio/project3/2.jpg
+          width: 2000
+          height: 2000
           alt: "image"
 
-        - image: /img/portfolio/project/3.jpg
-          width: 2420
-          height: 3227
+        - image: /img/portfolio/project3/3.jpg
+          width: 1500
+          height: 1500
           alt: "image"
 
-        - image: /img/portfolio/project/4.jpg
-          width: 992
+        - image: /img/portfolio/project3/4.jpg
+          width: 1588
           height: 1558
           alt: "image"
 
@@ -55,23 +64,25 @@ gallery:
     style: "vertical"
 
 description2:
-    enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
-    content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+    enabled: 0
+    heading: "Where "
+    content: " Each .  
+
     "
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
-    width: 1200
-    height: 960    
+    image: "/img/portfolio/project3/5.jpg"
+    width: 2000
+    height: 2000   
     alt: "image"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "CIA Director Poster"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+         Honor the origins of American inteligence with this portrait poster of Major General William J. Donovan.
+
+        Each portrait captures the individuality and era of each Director, creating a colorful historical mosaic that’s both educational and visually captivating. Perfect for collectors, museum enthusiasts, historians, and anyone with an appreciation for American intelligence history.
     "
 ---
