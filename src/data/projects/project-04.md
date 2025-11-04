@@ -27,9 +27,9 @@ description0:
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Immersive AR Experience Design"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        This Snapchat AR filter showcases cutting-edge augmented reality technology, seamlessly blending digital elements with the real world. The experience was designed to create an engaging, interactive environment that responds to user movements and facial expressions, delivering a truly immersive social media experience that captures attention and drives engagement.
     "
 
 gallery: 
@@ -45,28 +45,35 @@ gallery:
           height: 1300
           alt: "image"
 
-    cols: 2
-    style: "horizontal"
+        - type: video
+          image: /img/portfolio/project4/4.mp4
+          
+          width: 355
+          height: 640
+          alt: "video"
+
+    cols: 3
+    style: "vertical"
 
 description2:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Technical Innovation & Implementation"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Developed using Lens Studio's advanced AR framework, this project leverages real-time face tracking, 3D object placement, and dynamic lighting effects. The filter incorporates custom shaders, particle systems, and interactive animations that respond to facial expressions and head movements, creating a personalized experience for each user while maintaining optimal performance across devices.
     "
 
 finalImage:
-    enabled: 1
-    type: video
-    image: "/img/portfolio/project4/4.mp4"
-    width: 355
-    height: 640  
+    enabled: 0
+    
+    image: "/img/portfolio/project1/5.jpg"
+    width: 2340
+    height: 1256    
     alt: "image"
 
 description3:
-    enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    enabled: 0
+    heading: "Impact & User Engagement"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        The AR filter successfully bridged the gap between digital marketing and interactive entertainment, resulting in increased brand awareness and user engagement. This project demonstrates the power of AR technology in creating memorable, shareable experiences that resonate with modern audiences and drive social media virality through innovative visual storytelling.
     "
 ---

@@ -120,7 +120,23 @@ const ProjectDetail = ( props ) => {
                                 {({ ref, open }) => (
                                 <a data-fancybox="gallery" data-no-swup ref={ref} onClick={open} className={ postData.gallery.style == "vertical" ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30" : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" } style={{ "cursor": "pointer" }}>
                                   {item.image.endsWith('.mp4') ? (
-                                    <video className="mil-scale-img" data-value-1="1" data-value-2="1.1" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" controls onContextMenu={(e)=> e.preventDefault()} preload="auto">
+                                    <video 
+                                      className="mil-scale-img" 
+                                      data-value-1="1" 
+                                      data-value-2="1.1" 
+                                      autoPlay="autoplay" 
+                                      loop="loop" 
+                                      muted="true" 
+                                      playsInline="true" 
+                                      controls 
+                                      onContextMenu={(e)=> e.preventDefault()} 
+                                      preload="auto"
+                                      style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'cover'
+                                      }}
+                                    >
                                       <source src={item.image} />
                                     </video>
                                   ) : (
