@@ -1,22 +1,23 @@
 ---
 #preview
-title: Minimal priject book
-image: /img/portfolio/project4/1.jpg
-imageWidth: 1200
-imageHeight: 928
+title: AR on SNAP CHAT
+type: video
+image: /img/portfolio/project4/1.mp4
+imageWidth: 1300
+imageHeight: 1300
 category:
-    - UI UX
+    - AR
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "ECOMMERCE"
 
     - label: "Date"
-      value: "April 2022"
+      value: "June 2025"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Studio S"
 
 description0:
     enabled: 0
@@ -34,24 +35,14 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
-          width: 1200
-          height: 1600
+        - image: /img/portfolio/project4/2.jpg
+          width: 1234
+          height: 620
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-        - image: /img/portfolio/project/9.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-        - image: /img/portfolio/project/10.jpg
-          width: 1200
-          height: 800
+        - image: /img/portfolio/project4/3.jpg
+          width: 1300
+          height: 1300
           alt: "image"
 
     cols: 2
@@ -66,7 +57,8 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/11.jpg"
+    type: video
+    image: "/img/portfolio/project4/4.mp4"
     width: 1200
     height: 800    
     alt: "image"
