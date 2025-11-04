@@ -30,6 +30,9 @@ description1:
     heading: "Immersive AR Experience Design"
     content: "
         This Snapchat AR filter showcases cutting-edge augmented reality technology, seamlessly blending digital elements with the real world. The experience was designed to create an engaging, interactive environment that responds to user movements and facial expressions, delivering a truly immersive social media experience that captures attention and drives engagement.
+
+        
+        Developed using Lens Studio's advanced AR framework, this project leverages real-time face tracking, 3D object placement, and dynamic lighting effects. The filter incorporates custom shaders, particle systems, and interactive animations that respond to facial expressions and head movements, creating a personalized experience for each user while maintaining optimal performance across devices.
     "
 
 gallery: 
@@ -56,7 +59,7 @@ gallery:
     style: "vertical"
 
 description2:
-    enabled: 1
+    enabled: 0
     heading: "Technical Innovation & Implementation"
     content: "
         Developed using Lens Studio's advanced AR framework, this project leverages real-time face tracking, 3D object placement, and dynamic lighting effects. The filter incorporates custom shaders, particle systems, and interactive animations that respond to facial expressions and head movements, creating a personalized experience for each user while maintaining optimal performance across devices.
