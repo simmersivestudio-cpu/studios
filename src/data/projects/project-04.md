@@ -59,8 +59,8 @@ finalImage:
     enabled: 1
     type: video
     image: "/img/portfolio/project4/4.mp4"
-    width: 1200
-    height: 800    
+    width: 355
+    height: 640  
     alt: "image"
 
 description3:
