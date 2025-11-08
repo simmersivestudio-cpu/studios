@@ -1,15 +1,13 @@
 ---
 #preview
-title: Holographic Display System
+title: School of Visual Arts,Computer Art, Thesis Work
 type: video
-image: /img/portfolio/project16/1.mp4
+image: /img/portfolio/project16/2.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
-    - Holographic
     - Innovation
-    - Display Tech
-
+ 
 #full details
 details:
     - label: "Client"
@@ -35,18 +33,32 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project16/2.jpg
+        - image: /img/portfolio/project16/1.jpg
           width: 1400
           height: 900
           alt: "Holographic Projection"
 
+        - image: /img/portfolio/project16/2.jpg
+          width: 800
+          height: 600
+          alt: "Live Demo"
+
         - image: /img/portfolio/project16/3.jpg
           width: 1400
           height: 900
-          alt: "Interactive Interface"
+          alt: "Holographic Projection"
 
-        - type: video
-          image: /img/portfolio/project16/4.mp4
+        - image: /img/portfolio/project16/4.jpg
+          width: 800
+          height: 600
+          alt: "Live Demo"
+
+        - image: /img/portfolio/project16/5.jpg
+          width: 1400
+          height: 900
+          alt: "Holographic Projection"
+
+        - image: /img/portfolio/project16/6.jpg
           width: 800
           height: 600
           alt: "Live Demo"
@@ -63,10 +75,14 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project16/5.jpg"
-    width: 1600
-    height: 1000    
+   
+    image: "/img/portfolio/project16/7.jpg"
+    width: 2770
+    height: 1626
     alt: "Complete System"
+
+   
+
 
 description3:
     enabled: 1
