@@ -1,13 +1,23 @@
 ---
+# #preview
+# title: VR Training Simulation
+# type: video
+# image: /img/portfolio/project11/1.mp4
+# imageWidth: 1920
+# imageHeight: 1080
+# category:
+#     - VR
+#     - Training
+
 #preview
-title: VR Training Simulation
-type: video
-image: /img/portfolio/project11/1.mp4
-imageWidth: 1920
-imageHeight: 1080
+title: Interactive Web Experience
+type: image
+image: /img/portfolio/project11/1.jpg
+imageWidth: 1400
+imageHeight: 900
 category:
-    - VR
-    - Training
+    - Web Design
+    - Interactive
 
 #full details
 details:
