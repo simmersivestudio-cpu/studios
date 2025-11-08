@@ -35,19 +35,34 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
-          width: 992
-          height: 1488
+        - image: /img/portfolio/project6/2.jpg
+          width: 2770
+          height: 1626
           alt: "image"
 
-        - image: /img/portfolio/project/3.jpg
-          width: 2420
-          height: 3227
+        - image: /img/portfolio/project6/3.jpg
+          width: 3200
+          height: 2200
           alt: "image"
 
-        - image: /img/portfolio/project/4.jpg
-          width: 992
-          height: 1558
+        - image: /img/portfolio/project6/4.jpg
+          width: 2770
+          height: 1626
+          alt: "image"
+
+        - image: /img/portfolio/project6/5.jpg
+          width: 3981
+          height: 2769
+          alt: "image"
+
+        - image: /img/portfolio/project6/6.jpg
+          width: 2770
+          height: 1626
+          alt: "image"
+
+        - image: /img/portfolio/project6/7.jpg
+          width: 3200
+          height: 2200
           alt: "image"
 
     cols: 3
@@ -62,9 +77,9 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
-    width: 1200
-    height: 960    
+    image: "/img/portfolio/project6/8.jpg"
+    width: 3264
+    height: 4928  
     alt: "image"
 
 description3:

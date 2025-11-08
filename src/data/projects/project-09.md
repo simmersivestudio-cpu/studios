@@ -32,19 +32,19 @@ description1:
     "
 
 gallery: 
-    enabled: 1
+    enabled: 0
     items:
-        - image: /img/portfolio/project/6.jpg
+        - image: /img/portfolio/project9/2.jpg
           width: 1200
           height: 1600
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
+        - image: /img/portfolio/project9/3.jpg
           width: 1200
           height: 800
           alt: "image"
 
-        - image: /img/portfolio/project/9.jpg
+        - image: /img/portfolio/project9/4.jpg
           width: 1200
           height: 800
           alt: "image"
@@ -66,7 +66,7 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/11.jpg"
+    image: "/img/portfolio/project9/2.jpg"
     width: 1200
     height: 800    
     alt: "image"
