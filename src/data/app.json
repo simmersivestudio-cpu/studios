@@ -15,94 +15,36 @@
             {
                 "label": "Home",
                 "link": "/",
-                "children": [
-                    {
-                        "label": "Home",
-                        "link": "/"
-                    },
-                    {
-                        "label": "Home 2",
-                        "link": "/home-2"
-                    },
-                    {
-                        "label": "Home 3",
-                        "link": "/home-3"
-                    }
-                ]
+                "children": 0
             },
             {
-                "label": "Pages",
-                "link": "#.",
+                "label": "Team",
+                "link": "/team",
                 "children": [
-                    {
-                        "label": "About",
-                        "link": "/about"
-                    },
-                    {
-                        "label": "About 2",
-                        "link": "/about-2"
-                    },
-                    {
-                        "label": "About 3",
-                        "link": "/about-3"
-                    },
-                    {
-                        "label": "Services List",
-                        "link": "/services"
-                    },
-                    {
-                        "label": "Service Detail",
-                        "link": "/services/blog-articles"
-                    },
                     {
                         "label": "Team",
                         "link": "/team"
                     },
                     {
-                        "label": "404",
-                        "link": "/404"
+                        "label": "About",
+                        "link": "/about"
                     }
                 ]
             },
             {
                 "label": "Portfolio",
-                "link": "/portfolio",
+                "link": "/portfolio-2",
                 "children": [
                     {
-                        "label": "Portfolio Grid",
-                        "link": "/portfolio"
-                    },
-                    {
-                        "label": "Portfolio Grid 2",
+                        "label": "Portfolio",
                         "link": "/portfolio-2"
-                    },
-                    {
-                        "label": "Project Detail",
-                        "link": "/portfolio/project-01"
-                    },
-                    {
-                        "label": "Project Detail 2",
-                        "link": "/portfolio/project-02"
                     }
                 ]
             },
             {
                 "label": "Blog",
                 "link": "/blog",
-                "children": [
-                    {
-                        "label": "Blog List",
-                        "link": "/blog"
-                    },
-                    {
-                        "label": "Blog Post 1",
-                        "link": "/blog/5-steps-to-create-marketing-plan"
-                    },
-                    {
-                        "label": "Blog Post 2",
-                        "link": "/blog/10-content-proof-tips-to-catch-goofs"
-                    }
-                ]
+                "children": 0
             },
             {
                 "label": "Contact",
@@ -175,34 +117,141 @@
             ],
             "button": {
                 "label": "Our Instagram",
-                "link": "https://instagram.com"
+                "link": "https://www.instagram.com/immersive.studio.s/"
             }
         }
     },
     "contacts": {
-        "email": "mil.design.inbox@mail.com",
-        "tel": "+49 (055) 742 7X 84"
+        "email": "simmersivestudio@gmail.com",
+        "tel": "1 580 514 9991"
     },
     "social": [
         {
-            "link": "https://behance.net",
-            "icon": "fab fa-behance",
-            "title": "Behance"
+            "link": "https://www.tiktok.com/@immersive.studio.s",
+            "icon": "fab fa-tiktok",
+            "title": "TikTok"
         },
         {
-            "link": "https://dribbble.com",
-            "icon": "fab fa-dribbble",
-            "title": "Dribbble"
+            "link": "https://www.youtube.com/@Immersive.Studio.S",
+            "icon": "fab fa-youtube",
+            "title": "YouTube"
         },
         {
-            "link": "https://twitter.com",
-            "icon": "fab fa-twitter",
-            "title": "Twitter"
+            "link": "https://www.linkedin.com/in/immersive-studio-s/",
+            "icon": "fab fa-linkedin",
+            "title": "LinkedIn"
         },
         {
-            "link": "https://instagram.com",
+            "link": "https://www.instagram.com/immersive.studio.s/",
             "icon": "fab fa-instagram",
             "title": "Instagram"
         }
-    ]
+    ],
+    "backup": {
+        "homeDropdownOriginal": {
+            "note": "Original Home dropdown structure - can be restored to header.menu[0].children if needed",
+            "children": [
+                {
+                    "label": "Home",
+                    "link": "/"
+                },
+                {
+                    "label": "Home 2",
+                    "link": "/home-2"
+                },
+                {
+                    "label": "Home 3",
+                    "link": "/home-3"
+                }
+            ]
+        },
+        "pagesDropdownOriginal": {
+            "note": "Original Pages dropdown structure - was header.menu[1] before changing to Team",
+            "label": "Pages",
+            "link": "#.",
+            "children": [
+                {
+                    "label": "About",
+                    "link": "/about"
+                },
+                {
+                    "label": "About 2",
+                    "link": "/about-2"
+                },
+                {
+                    "label": "About 3",
+                    "link": "/about-3"
+                },
+                {
+                    "label": "Services List",
+                    "link": "/services"
+                },
+                {
+                    "label": "Service Detail",
+                    "link": "/services/blog-articles"
+                },
+                {
+                    "label": "Team",
+                    "link": "/team"
+                },
+                {
+                    "label": "404",
+                    "link": "/404"
+                }
+            ]
+        },
+        "portfolioDropdownOriginal": {
+            "note": "Original Portfolio dropdown structure - was header.menu[2] before removing items",
+            "children": [
+                {
+                    "label": "Portfolio Grid",
+                    "link": "/portfolio"
+                },
+                {
+                    "label": "Portfolio Grid 2",
+                    "link": "/portfolio-2"
+                },
+                {
+                    "label": "Project Detail",
+                    "link": "/portfolio/project-01"
+                },
+                {
+                    "label": "Project Detail 2",
+                    "link": "/portfolio/project-02"
+                }
+            ]
+        },
+        "blogDropdownOriginal": {
+            "note": "Original Blog dropdown structure - was header.menu[3] before removing items",
+            "children": [
+                {
+                    "label": "Blog List",
+                    "link": "/blog"
+                },
+                {
+                    "label": "Blog Post 1",
+                    "link": "/blog/5-steps-to-create-marketing-plan"
+                },
+                {
+                    "label": "Blog Post 2",
+                    "link": "/blog/10-content-proof-tips-to-catch-goofs"
+                }
+            ]
+        },
+        "socialIconsRemoved": {
+            "note": "Social media icons that were removed from header (positions 1 and 2)",
+            "removedIcons": [
+                {
+                    "link": "https://behance.net",
+                    "icon": "fab fa-behance",
+                    "title": "Behance"
+                },
+                {
+                    "link": "https://dribbble.com",
+                    "icon": "fab fa-dribbble",
+                    "title": "Dribbble"
+                }
+            ]
+        }
+    }
 }

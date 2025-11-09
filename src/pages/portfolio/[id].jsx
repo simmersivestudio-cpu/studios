@@ -67,7 +67,7 @@ const ProjectDetail = ( props ) => {
                   {postData.type == "video" &&
                   <a data-fancybox="gallery" data-no-swup className="mil-appearance mil-just-image mil-image-hori mil-accent-trigger mil-mb-120">
                       <div className="mil-image-frame">
-                        <video className="mil-video-background" data-value="1.2" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" onContextMenu={(e)=> e.preventDefault()} preload="auto">
+                        <video className="mil-video-background" data-value="1.2" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" controls onContextMenu={(e)=> e.preventDefault()} preload="auto">
                             <source src={postData.image} />
                         </video>
                       </div>
@@ -80,7 +80,7 @@ const ProjectDetail = ( props ) => {
                 <>
                   {postData.description0.enabled == 1 &&
                   <div className="col-lg-10 col-xl-6">
-                      <p className="mil-first-letter mil-appearance">
+                      <p className="mil-first-letter mil-appearance" style={{whiteSpace: 'pre-line'}}>
                         {postData.description0.content}
                       </p>
                   </div>
@@ -96,7 +96,7 @@ const ProjectDetail = ( props ) => {
                   <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description1.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description1.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description1.content}</p>
                   </div>
               </div>
               }
@@ -119,7 +119,29 @@ const ProjectDetail = ( props ) => {
                               >
                                 {({ ref, open }) => (
                                 <a data-fancybox="gallery" data-no-swup ref={ref} onClick={open} className={ postData.gallery.style == "vertical" ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30" : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" } style={{ "cursor": "pointer" }}>
-                                  <img src={item.image} alt={item.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
+                                  {item.image.endsWith('.mp4') ? (
+                                    <video 
+                                      className="mil-scale-img" 
+                                      data-value-1="1" 
+                                      data-value-2="1.1" 
+                                      autoPlay="autoplay" 
+                                      loop="loop" 
+                                      muted="true" 
+                                      playsInline="true" 
+                                      controls 
+                                      onContextMenu={(e)=> e.preventDefault()} 
+                                      preload="auto"
+                                      style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'cover'
+                                      }}
+                                    >
+                                      <source src={item.image} />
+                                    </video>
+                                  ) : (
+                                    <img src={item.image} alt={item.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
+                                  )}
                                 </a>
                               )}
                               </Item>
@@ -135,11 +157,11 @@ const ProjectDetail = ( props ) => {
           {typeof postData.description2 != "undefined" &&
             <>
               {postData.description2.enabled == 1 &&
-              <div className="row justify-content-center mil-p-90-120">
-                  <div className="col-lg-10 col-xl-6">
+              <div className="row justify-content-center mil-p-0-0">
+                  <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description2.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description2.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description2.content}</p>
                   </div>
               </div>
               }
@@ -159,7 +181,13 @@ const ProjectDetail = ( props ) => {
                       >
                       {({ ref, open }) => (
                       <a data-fancybox="gallery" data-no-swup ref={ref} onClick={open} className="mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" style={{ "cursor": "pointer" }}>
-                          <img src={postData.finalImage.image} alt={postData.finalImage.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
+                          {postData.finalImage.image.endsWith('.mp4') ? (
+                            <video className="mil-scale-img" data-value-1="1" data-value-2="1.1" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" controls onContextMenu={(e)=> e.preventDefault()} preload="auto">
+                              <source src={postData.finalImage.image} />
+                            </video>
+                          ) : (
+                            <img src={postData.finalImage.image} alt={postData.finalImage.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
+                          )}
                       </a>
                       )}
                       </Item>
@@ -176,7 +204,7 @@ const ProjectDetail = ( props ) => {
                   <div className="col-lg-10 col-xl-6">
                       <h5 className="mil-appearance mil-mb-30">{postData.description3.heading}</h5>
 
-                      <p className="mil-appearance">{postData.description3.content}</p>
+                      <p className="mil-appearance" style={{whiteSpace: 'pre-line'}}>{postData.description3.content}</p>
                   </div>
               </div>
               }

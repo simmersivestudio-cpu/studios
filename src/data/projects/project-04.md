@@ -1,22 +1,23 @@
 ---
 #preview
-title: Minimal priject book
-image: /img/portfolio/4.jpg
-imageWidth: 1200
-imageHeight: 928
+title: AR on SNAP CHAT
+type: video
+image: /img/portfolio/project4/1.mp4
+imageWidth: 1300
+imageHeight: 1300
 category:
-    - Content strategy
+    - AR
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "ECOMMERCE"
 
     - label: "Date"
-      value: "April 2022"
+      value: "June 2025"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Studio S"
 
 description0:
     enabled: 0
@@ -26,55 +27,56 @@ description0:
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Immersive AR Experience Design"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        This Snapchat AR filter showcases cutting-edge augmented reality technology, seamlessly blending digital elements with the real world. The experience was designed to create an engaging, interactive environment that responds to user movements and facial expressions, delivering a truly immersive social media experience that captures attention and drives engagement.
+
+        
+        Developed using Lens Studio's advanced AR framework, this project leverages real-time face tracking, 3D object placement, and dynamic lighting effects. The filter incorporates custom shaders, particle systems, and interactive animations that respond to facial expressions and head movements, creating a personalized experience for each user while maintaining optimal performance across devices.
     "
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
-          width: 1200
-          height: 1600
+        - image: /img/portfolio/project4/2.jpg
+          width: 1234
+          height: 620
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
-          width: 1200
-          height: 800
+        - image: /img/portfolio/project4/3.jpg
+          width: 1300
+          height: 1300
           alt: "image"
 
-        - image: /img/portfolio/project/9.jpg
-          width: 1200
-          height: 800
-          alt: "image"
+        - type: video
+          image: /img/portfolio/project4/4.mp4
+          
+          width: 355
+          height: 640
+          alt: "video"
 
-        - image: /img/portfolio/project/10.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-    cols: 2
-    style: "horizontal"
+    cols: 3
+    style: "vertical"
 
 description2:
     enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Technical Innovation & Implementation"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Developed using Lens Studio's advanced AR framework, this project leverages real-time face tracking, 3D object placement, and dynamic lighting effects. The filter incorporates custom shaders, particle systems, and interactive animations that respond to facial expressions and head movements, creating a personalized experience for each user while maintaining optimal performance across devices.
     "
 
 finalImage:
-    enabled: 1
-    image: "/img/portfolio/project/11.jpg"
-    width: 1200
-    height: 800    
+    enabled: 0
+    
+    image: "/img/portfolio/project1/5.jpg"
+    width: 2340
+    height: 1256    
     alt: "image"
 
 description3:
-    enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    enabled: 0
+    heading: "Impact & User Engagement"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        The AR filter successfully bridged the gap between digital marketing and interactive entertainment, resulting in increased brand awareness and user engagement. This project demonstrates the power of AR technology in creating memorable, shareable experiences that resonate with modern audiences and drive social media virality through innovative visual storytelling.
     "
 ---

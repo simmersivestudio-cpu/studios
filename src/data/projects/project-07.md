@@ -1,11 +1,11 @@
 ---
 #preview
 title: Workspace
-image: /img/portfolio/13.jpg
+image: /img/portfolio/project7/1.jpg
 imageWidth: 1200
 imageHeight: 1077
 category:
-     - Copywrite
+     - VIDEO
 
 #full details
 details:
@@ -35,17 +35,17 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
+        - image: /img/portfolio/project7/2.jpg
           width: 992
           height: 1488
           alt: "image"
 
-        - image: /img/portfolio/project/3.jpg
+        - image: /img/portfolio/project7/3.jpg
           width: 2420
           height: 3227
           alt: "image"
 
-        - image: /img/portfolio/project/4.jpg
+        - image: /img/portfolio/project7/4.jpg
           width: 992
           height: 1558
           alt: "image"
@@ -62,9 +62,9 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
-    width: 1200
-    height: 960    
+    image: "/img/portfolio/project7/5.jpg"
+    width: 3000
+    height: 2000   
     alt: "image"
 
 description3:

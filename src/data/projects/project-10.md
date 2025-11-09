@@ -1,11 +1,11 @@
 ---
 #preview
 title: Bright prints
-image: /img/portfolio/16.jpg
+image: /img/portfolio/project10/1.jpg
 imageWidth: 1799
 imageHeight: 1200
 category: 
-    - SMM
+    - VR
 
 #full details
 details:
