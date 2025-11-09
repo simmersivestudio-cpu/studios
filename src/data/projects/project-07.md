@@ -1,34 +1,35 @@
 ---
 #preview
-title: Workspace
+title: Metropolitan Washingtion Airport Authority
 image: /img/portfolio/project7/1.jpg
 imageWidth: 1200
 imageHeight: 1077
 category:
-     - VIDEO
+     - UI UX
+     - Video
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "MWAA"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2014 - 2016"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Creator"
+      value: "Sunyoung Noh"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Comprehensive website redesign project for Reagan National Airport and Washington Dulles International Airport, serving as lead designer from initial concept through final implementation. This award-winning project involved competing against major contractors to deliver a cutting-edge digital experience that would serve millions of travelers annually and establish new standards for airport website design.
     "
 
 description1:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "End-to-End UX Leadership & Design Strategy"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Led the complete design process from sitemap architecture through wireframing to final visual design and development collaboration. Created comprehensive user experience strategies that addressed the complex needs of international travelers, airport operations, and stakeholder requirements. The winning design submission was selected over multiple competing contractor proposals, demonstrating superior understanding of airport digital ecosystems and user-centered design principles.
     "
 
 
@@ -55,9 +56,9 @@ gallery:
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Interactive Kiosk Development & Wayfinding Systems"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Solely designed and developed interactive airport kiosks with comprehensive wayfinding capabilities, collaborating closely with development teams on wireframes and front-end implementation using HTML, CSS, and JavaScript. These interactive touchscreen systems provided travelers with real-time flight information, terminal navigation, dining and shopping directories, and accessibility features, significantly improving the passenger experience and reducing staff workload.
     "
 
 finalImage:
@@ -69,8 +70,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Award-Winning Branding & Promotional Content"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        Designed and produced a comprehensive branding promotional video that was displayed throughout both Reagan National and Dulles International airports, reaching millions of travelers annually. The project received industry recognition and awards following the successful website launch, validating the innovative design approach and user experience strategy. This multi-faceted project established new benchmarks for airport digital communications and continues to influence airport website design standards across the aviation industry.
     "
 ---

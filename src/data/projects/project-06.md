@@ -1,34 +1,34 @@
 ---
 #preview
-title: Design literature
+title: FOX SPORTS
 image: /img/portfolio/project6/1.jpg
 imageWidth: 1200
 imageHeight: 1798
 category:
-    - Ecommerce
+    - UI UX
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "FOX SPORTS"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2006 - 2010"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Creator"
+      value: "Sunyoung Noh"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Comprehensive digital design work for FOX Sports encompassing various website updates tailored to major sporting events and marketing campaigns. This multi-year project involved creating cohesive visual strategies that captured the excitement and energy of live sports while maintaining Fox Sports' brand identity across all digital platforms and marketing materials.
     "
 
 description1:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Website Design & Style Guide Development"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Developed comprehensive style guides and sales templates specifically designed for Fox Sports' digital ecosystem. These templates ensured brand consistency across all sports events, from NFL and MLB to soccer and NASCAR. The design system included typography guidelines, color palettes, layout structures, and interactive elements that could be rapidly deployed during live sporting events and promotional campaigns.
     "
 
 
@@ -70,9 +70,9 @@ gallery:
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Multi-Platform Creative Production"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Executed extensive banner and poster campaigns using industry-leading tools including Adobe Flash, Illustrator, Photoshop, and Swift 3D. Created dynamic advertising materials that adapted to various sports events and seasonal campaigns. The work included animated web banners, print advertisements, digital posters, and interactive promotional content that enhanced Fox Sports' marketing reach and audience engagement across multiple channels.
     "
 
 finalImage:
@@ -84,8 +84,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Legacy Impact & Sports Marketing Excellence"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        This four-year collaboration with Fox Sports established design standards that influenced sports broadcasting and digital marketing throughout the industry. The comprehensive visual identity system successfully supported major sporting events including World Cup, Super Bowl, and MLB World Series coverage, contributing to Fox Sports' position as a leading sports media brand. The templates and style guides created during this period continued to serve as the foundation for Fox Sports' digital presence for years beyond the initial project scope.
     "
 ---

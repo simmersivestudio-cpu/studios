@@ -92,7 +92,7 @@ const ProjectDetail = ( props ) => {
           {typeof postData.description1 != "undefined" &&
             <>
               {postData.description1.enabled == 1 &&
-              <div className="row justify-content-center mil-p-0-0">
+              <div className="row justify-content-center mil-p-60-60">
                   <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description1.heading}</h5>
 
@@ -157,7 +157,7 @@ const ProjectDetail = ( props ) => {
           {typeof postData.description2 != "undefined" &&
             <>
               {postData.description2.enabled == 1 &&
-              <div className="row justify-content-center mil-p-0-0">
+              <div className="row justify-content-center mil-p-60-60">
                   <div className="col-lg-10 col-xl-6 mil-text-center">
                       <h5 className="mil-appearance mil-mb-30">{postData.description2.heading}</h5>
 
