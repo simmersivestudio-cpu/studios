@@ -19,12 +19,15 @@ const PortfolioTwo = (props) => {
   const [isOpen, setOpen] = useState(false);
   const [modalURL, setModalURL] = useState(false);
 
-  // Get unique categories from all projects
-  const categories = useMemo(() => {
-    const allCategories = props.projects.flatMap(project => project.category || []);
-    const uniqueCategories = [...new Set(allCategories)];
-    return ['All', ...uniqueCategories.sort()];
-  }, [props.projects]);
+  // Manual category control - Custom categories only
+  const categories = ['All', 'AI', 'AR', 'UI UX', 'E-commerce', 'VR', 'Video'];
+  
+  // Get unique categories from all projects (automatic) - DISABLED
+  // const categories = useMemo(() => {
+  //   const allCategories = props.projects.flatMap(project => project.category || []);
+  //   const uniqueCategories = [...new Set(allCategories)];
+  //   return ['All', ...uniqueCategories.sort()];
+  // }, [props.projects]);
 
   // Filter projects based on selected category
   const filteredProjects = useMemo(() => {
