@@ -7,35 +7,35 @@
 # imageHeight: 800
 # category:
 #      - UI UX
-title: Psalms
+title: National Geographic
 image: /img/portfolio/project8/1.jpg
 imageWidth: 3200
 imageHeight: 2200
 category:
-    - VIDEO
+    - E-commerce
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "National Geographic Store"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2016 - 2018"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Creator"
+      value: "Sunyoung Noh"
 
 description0:
-    enabled: 0
+    enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Oversaw creative design and execution for the National Geographic Store website to drive revenue and conversion. Collaborated with e-commerce, merchandising, marketing, third-party partners, and key stakeholders to gather design requirements. Worked with NG Brand Marketing group to ensure style and design solutions aligned with brand guidelines.
     "
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "E-commerce Design Leadership"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Led comprehensive website redesign initiatives focused on improving user experience and increasing conversion rates. Developed responsive design solutions that maintained National Geographic's prestigious brand identity while optimizing for modern e-commerce functionality and mobile shopping experiences.
     "
 
 gallery: 
@@ -65,10 +65,10 @@ gallery:
     style: "horizontal"
 
 description2:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Cross-Functional Collaboration"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Coordinated with multiple departments including e-commerce operations, merchandising teams, marketing campaigns, and external vendor partners to ensure cohesive design implementation. Facilitated stakeholder meetings and design reviews to align project goals with business objectives and technical requirements.
     "
 
 finalImage:
@@ -80,8 +80,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Brand Alignment & Guidelines"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        Maintained strict adherence to National Geographic's brand standards while innovating design solutions for digital commerce. Collaborated closely with the NG Brand Marketing group to ensure all visual elements, typography, and user interface components reflected the organization's commitment to exploration, education, and environmental conservation.
     "
 ---

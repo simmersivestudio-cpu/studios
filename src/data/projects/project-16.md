@@ -1,33 +1,35 @@
 ---
 #preview
-title: School of Visual Arts,Computer Art, Thesis Work
+title: School of Visual Arts, Computer Art, Thesis Work
 type: video
 image: /img/portfolio/project16/2.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
-    - Innovation
+    - AI
  
 #full details
 details:
-    - label: "Client"
-      value: "Future Tech Labs"
+    - label: "Institution"
+      value: "School of Visual Arts (SVA)"
 
     - label: "Date"
-      value: "January 2026"
+      value: "2002 - 2004"
 
-    - label: "Author"
-      value: "Studio S"
+    - label: "Degree"
+      value: "MFA Computer Art"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "
+        My long-term professional goal is an ambitious one: to create art that brings out the spirituality of objects, using computer programs as my paintbrush and computer screens as my canvas. This thesis project represents my first exploration of Kandinsky's philosophy using modern 3D imaging tools to conjure feelings and thoughts through abstract 3D images, moving beyond recognizable characters and objects that dominate today's computer-generated art.
+    "
 
 description1:
     enabled: 1
-    heading: "Next-Generation Holographic Technology"
+    heading: "Kandinsky's Philosophy in Digital Form"
     content: "
-        Pioneered a breakthrough holographic display system that projects true 3D images without the need for special glasses or headsets. This cutting-edge technology creates floating, interactive holograms that can be viewed from multiple angles, revolutionizing presentations, entertainment, and communication. The system supports real-time content generation and gesture-based interaction.
+        As we move into the digital world, much of computer imaging and animation relies on recognizable characters and objects, especially in today's computer-generated television shows and movies. Following Kandinsky's understanding that art can invoke feelings and thoughts not formally dependent on representational objects, I use modern 3D imaging tools to create abstract images that conjure emotions through non-representational forms, colors, and movements.
     "
 
 gallery: 
@@ -68,9 +70,9 @@ gallery:
 
 description2:
     enabled: 1
-    heading: "Advanced Photonic Engineering"
+    heading: "Abstract Spirituality Through Technology"
     content: "
-        Utilizing proprietary light field technology and advanced optics, the system creates volumetric displays with unprecedented clarity and depth. The holographic projector features 8K resolution per viewing angle, 120fps refresh rate, and supports full-color spectrum reproduction with perfect spatial accuracy.
+        This thesis project pushes 3D computer-generated art beyond conventional representation, using abstract objects and color to represent the spirituality of real objects. Few viewers will recognize what the actual source object is, but everyone will sense the spirit of the source through its abstract structures, colors, shapes, and movement across the screen. This approach continues Kandinsky's philosophy while embracing today's advanced digital tools.
     "
 
 finalImage:
@@ -86,8 +88,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Industry Transformation"
+    heading: "Pioneering Digital Abstract Expression"
     content: "
-        This holographic display technology is set to transform industries from medical training to architectural visualization. Early adopters have reported 300% improvement in engagement and comprehension, making this the most significant advancement in display technology in decades.
+        This thesis represents my first exploration of merging Kandinsky's abstract expressionist philosophy with cutting-edge 3D computer technology. Selected for the First Beijing International New Media Arts Exhibition (2004) and included in SVA's MFA Computer Art Selected Student Works DVD, this work established a foundation for continuing to expand my artistic vision, where many more explorations will emerge as I develop my learning and experiences in digital spiritual expression.
     "
 ---

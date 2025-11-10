@@ -1,34 +1,34 @@
 ---
 #preview
-title: Bright prints
+title: Fox Broadcasting Company
 image: /img/portfolio/project10/1.jpg
 imageWidth: 1799
 imageHeight: 1200
 category: 
-    - VR
+    - UI UX
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "Fox Broadcasting Company"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2005 - 2006"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Creator"
+      value: "Sunyoung Noh"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Served as Art Director at Fox Broadcasting Company in Century City, CA, designing and creating websites for Fox television shows. Produced engaging catch pages and digital experiences for major Fox programming including So You Think You Can Dance, Arrested Development, Killer Instinct, Kitchen Confidential, and 24.
     "
 
 description1:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Television Show Website Design"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Led comprehensive web design initiatives for Fox's premier television programming, creating immersive digital experiences that captured the unique essence of each show. Developed visually compelling websites for fox.com that enhanced viewer engagement and supported promotional campaigns for both established series and new launches.
     "
 
 
@@ -55,9 +55,9 @@ gallery:
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "High-Profile Show Portfolio"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Produced distinctive catch pages and promotional materials for Fox's most popular and critically acclaimed series. Managed design projects spanning reality television (So You Think You Can Dance), comedy (Arrested Development), drama thrillers (24, Killer Instinct), and sitcoms (Kitchen Confidential), adapting visual approaches to match each show's unique brand identity and target audience.
     "
 
 finalImage:
@@ -69,8 +69,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Digital Brand Strategy for Entertainment"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        Collaborated with Fox Broadcasting marketing teams and show producers to ensure web experiences aligned with overall promotional strategies and maintained consistent Fox brand standards. Developed responsive design solutions that effectively showcased program content while driving viewer engagement and supporting advertising partnerships across multiple digital touchpoints.
     "
 ---
