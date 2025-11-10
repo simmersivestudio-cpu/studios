@@ -1,34 +1,34 @@
 ---
 #preview
-title: Psalms
+title: TaylorMade Golf | Adidas Group  
 image: /img/portfolio/project9/1.jpg
 imageWidth: 1200
 imageHeight: 1800
 category:
-    - VIDEO
+    - UI UX
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "TaylorMade Golf | Adidas Group"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2010 - 2012"
 
-    - label: "Author"
-      value: "Paul Trueman"
+    - label: "Creator"
+      value: "Sunyoung Noh"
 
 description0:
-    enabled: 0
+    enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Designed graphics for websites, Facebook, Twitter, iPad, and kiosk promotions across the TaylorMade Golf, Adidas Golf, and Ashworth Golf brands. Developed standard operating procedures for the newly organized interactive group to streamline digital design workflows and ensure consistent brand execution across multiple platforms and touchpoints.
     "
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Multi-Platform Design Solutions"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Created cohesive visual experiences across taylormadegolf.com, adidasgolf.com, and ashworthgolf.com websites. Developed responsive graphics optimized for various digital touchpoints including social media platforms, mobile applications, and interactive kiosks, ensuring brand consistency across the entire Adidas Golf portfolio.
     "
 
 gallery: 
@@ -58,10 +58,10 @@ gallery:
     style: "horizontal"
 
 description2:
-    enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 1
+    heading: "Process Development & Team Leadership"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Established comprehensive standard operating procedures for the newly formed interactive design group, creating efficient workflows for multi-brand campaigns. Implemented design systems and guidelines that improved team productivity while maintaining the distinct visual identities of TaylorMade, Adidas Golf, and Ashworth brands across digital platforms.
     "
 
 finalImage:
@@ -73,8 +73,8 @@ finalImage:
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Cross-Brand Digital Strategy"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        Coordinated design initiatives across three major golf brands within the Adidas Group ecosystem. Managed promotional graphics for social media campaigns, interactive kiosk displays, and tablet applications, ensuring each brand maintained its unique market positioning while benefiting from cohesive digital marketing strategies and shared technological innovations.
     "
 ---
