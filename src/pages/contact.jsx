@@ -70,37 +70,36 @@ const Contact = () => {
                 }
                 return errors;
             }}
-            onSubmit = {( values, { setSubmitting } ) => {
-                const form = document.getElementById("contactForm");
+            onSubmit = {async ( values, { setSubmitting, resetForm } ) => {
                 const status = document.getElementById("contactFormStatus");
-                const data = new FormData();
+                
+                try {
+                    const response = await fetch('/api/contact', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            name: values.name,
+                            email: values.email,
+                            message: values.message
+                        }),
+                    });
 
-                data.append('name', values.name);
-                data.append('email', values.email);
-                data.append('message', values.message);
+                    const data = await response.json();
 
-                fetch(form.action, {
-                    method: 'POST',
-                    body: data,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                }).then(response => {
                     if (response.ok) {
-                        status.innerHTML = "Thanks for your submission!";
-                        form.reset()
+                        status.innerHTML = "Thanks for your submission! We'll get back to you soon.";
+                        status.style.color = "green";
+                        resetForm();
                     } else {
-                        response.json().then(data => {
-                            if (Object.hasOwn(data, 'errors')) {
-                                status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                            } else {
-                                status.innerHTML = "Oops! There was a problem submitting your form"
-                            }
-                        })
+                        status.innerHTML = data.error || "Oops! There was a problem submitting your form";
+                        status.style.color = "red";
                     }
-                }).catch(error => {
-                    status.innerHTML = "Oops! There was a problem submitting your form"
-                });
+                } catch (error) {
+                    status.innerHTML = "Oops! There was a problem submitting your form";
+                    status.style.color = "red";
+                }
 
                 setSubmitting(false);
             }}
@@ -115,7 +114,7 @@ const Contact = () => {
                 isSubmitting,
                 /* and other goodies */
             }) => (
-            <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL}>
+            <form onSubmit={handleSubmit} id="contactForm">
               <div className="row align-items-center">
                   <div className="col-lg-6">
                       {/* email field */}
