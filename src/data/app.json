@@ -42,11 +42,6 @@
                 ]
             },
             {
-                "label": "Blog",
-                "link": "/blog",
-                "children": 0
-            },
-            {
                 "label": "Contact",
                 "link": "/contact",
                 "children": 0
