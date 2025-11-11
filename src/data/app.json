@@ -32,10 +32,6 @@
                     {
                         "label": "Services List",
                         "link": "/services"
-                    },
-                    {
-                        "label": "Services Detail",
-                        "link": "/services/video-production"
                     }
                 ]
             },

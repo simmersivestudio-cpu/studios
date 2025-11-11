@@ -1,38 +1,42 @@
 {
     "subtitle": "Prices",
     "title": "Choose the optimal price plan",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus.",
+    "description": "Flexible pricing options tailored to your needs. Whether you're a startup looking to establish your digital presence or an enterprise seeking comprehensive solutions, we have a plan that fits your budget and goals.",
     "button": {
         "label": "Contact us",
         "link": "/contact"
     },
     "items": [
         {
-            "name": "Free",
-            "subname": "Basic functionality",
-            "price": "$0",
-            "price_after": "/mo",
-            "price_label": "Free forever",
+            "name": "Starter",
+            "subname": "Perfect for startups",
+            "price": "$2,500",
+            "price_after": "/project",
+            "price_label": "One-time fee",
             "list": [
                 {
                     "active": 1,
-                    "value": "Dolorum sed doloribus"
+                    "value": "Basic website development"
                 },
                 {
                     "active": 1,
-                    "value": "Consectetur adipisicing elit"
+                    "value": "Up to 5 pages"
+                },
+                {
+                    "active": 1,
+                    "value": "Responsive design"
+                },
+                {
+                    "active": 1,
+                    "value": "1 short video (30-60s)"
                 },
                 {
                     "active": 0,
-                    "value": "Maxime libero"
+                    "value": "Social media ad campaigns"
                 },
                 {
                     "active": 0,
-                    "value": "Atque esse odit"
-                },
-                {
-                    "active": 0,
-                    "value": "Laboriosam corporis"
+                    "value": "Custom UI/UX design system"
                 }
             ],
             "button": {
@@ -41,31 +45,35 @@
             }
         },
         {
-            "name": "Pro",
-            "subname": "More advanced",
-            "price": "$89",
-            "price_after": "/mo",
-            "price_label": "Per month",
+            "name": "Professional",
+            "subname": "For growing businesses",
+            "price": "$8,500",
+            "price_after": "/project",
+            "price_label": "One-time fee",
             "list": [
                 {
                     "active": 1,
-                    "value": "Dolorum sed doloribus"
+                    "value": "Custom web development"
                 },
                 {
                     "active": 1,
-                    "value": "Consectetur adipisicing elit"
+                    "value": "Up to 15 pages + CMS"
                 },
                 {
                     "active": 1,
-                    "value": "Maxime libero"
+                    "value": "Complete UI/UX design"
+                },
+                {
+                    "active": 1,
+                    "value": "2-3 professional videos"
+                },
+                {
+                    "active": 1,
+                    "value": "3-month social media campaign"
                 },
                 {
                     "active": 0,
-                    "value": "Atque esse odit"
-                },
-                {
-                    "active": 0,
-                    "value": "Laboriosam corporis"
+                    "value": "AR/VR experience development"
                 }
             ],
             "button": {
@@ -75,30 +83,34 @@
         },
         {
             "name": "Enterprise",
-            "subname": "For large business",
-            "price": "$399",
-            "price_after": "/mo",
-            "price_label": "Per month",
+            "subname": "Complete digital solution",
+            "price": "$25,000+",
+            "price_after": "",
+            "price_label": "Custom pricing",
             "list": [
                 {
                     "active": 1,
-                    "value": "Dolorum sed doloribus"
+                    "value": "Full-scale web application"
                 },
                 {
                     "active": 1,
-                    "value": "Consectetur adipisicing elit"
+                    "value": "Unlimited pages + advanced CMS"
                 },
                 {
                     "active": 1,
-                    "value": "Maxime libero"
+                    "value": "Complete design system"
                 },
                 {
                     "active": 1,
-                    "value": "Atque esse odit"
+                    "value": "Video production suite"
                 },
                 {
                     "active": 1,
-                    "value": "Laboriosam corporis"
+                    "value": "Ongoing social media management"
+                },
+                {
+                    "active": 1,
+                    "value": "AR/VR experience development"
                 }
             ],
             "button": {

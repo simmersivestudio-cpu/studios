@@ -35,7 +35,7 @@ const PricingSection = () => {
                         <h5 className="mil-mb-15">{item.name}</h5>
                         <p className="mil-h6 mil-bold mil-mb-30">{item.subname}</p>
 
-                        <div className="mil-price-number mil-mb-10">{item.price}<span>{item.price_after}</span></div>
+                        <div className="mil-price-number mil-mb-10" style={{ fontSize: '3.2em' }}>{item.price}<span>{item.price_after}</span></div>
                         <p className="mil-h6 mil-bold mil-mb-30">{item.price_label}</p>
 
                         <div className="mil-divider mil-mb-30"></div>
