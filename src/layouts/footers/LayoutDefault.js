@@ -39,9 +39,9 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
                                 </ul>
                                 {/* menu list end */}
                             </div>
-                            <div className="col-lg-4 col-xl-3 mil-mb-30">
+                            {/* Useful Links - Commented out temporarily */}
+                            {/* <div className="col-lg-4 col-xl-3 mil-mb-30">
                                 <h6 className="mil-light mil-mb-30">Useful links</h6>
-                                {/* useful links list */}
                                 <ul>
                                     {appData.footer.links.map((item, key) => (
                                     <li key={`footer-links-item-${key}`}>
@@ -49,8 +49,7 @@ const DefaultFooter = ( { bg, instagram, extraClass } ) => {
                                     </li>
                                     ))}
                                 </ul>
-                                {/* useful links list end */}
-                            </div>
+                            </div> */}
                             <div className="col-lg-4 col-xl-4 mil-mb-30">
                                 <h6 className="mil-light mil-mb-30">Contact us</h6>
                                 {/* email */}

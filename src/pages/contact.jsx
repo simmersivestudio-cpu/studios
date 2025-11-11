@@ -185,7 +185,7 @@ const Contact = () => {
       {/* map */}
       <div className="mil-map-frame">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18737.626654165902!2d-79.39321130117438!3d43.64696799680622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2a33d602f%3A0xb22c1fe911a3636b!2sLCBO!5e0!3m2!1suk!2sua!4v1675692409380!5m2!1suk!2sua" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.77426573108!2d-77.08489987832659!3d38.89376729374201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus" 
           width={600} 
           height={450} 
           style={{ border: 0 }} 
