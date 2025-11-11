@@ -23,7 +23,7 @@ export default async function handler(req, res) {
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'onboarding@resend.dev', // Change this to your verified domain
+      from: 'contact@studios-connect.com',
       to: 'simmersivestudio@gmail.com', // Your receiving email
       reply_to: email,
       subject: `New Contact Form Submission from ${name}`,
