@@ -28,6 +28,14 @@
                     {
                         "label": "About",
                         "link": "/about"
+                    },
+                    {
+                        "label": "Services List",
+                        "link": "/services"
+                    },
+                    {
+                        "label": "Services Detail",
+                        "link": "/services/video-production"
                     }
                 ]
             },

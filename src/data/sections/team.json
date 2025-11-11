@@ -1,7 +1,7 @@
 {
-    "subtitle": "Our Talent",
-    "title": "Creative Minds Behind Digital Excellence",
-    "description": "Our diverse team of strategists, designers, and developers brings together years of industry expertise to deliver innovative digital solutions. Each member contributes unique skills and perspectives to create exceptional results for our clients.",
+    "subtitle": "Our Team",
+    "title": "Visionaries Behind Studio S",
+    "description": "At Studio S, creativity meets innovation. Our co-founders bring together design mastery, technical expertise, and forward-thinking vision — bridging traditional storytelling with the power of XR, AR, and AI.",
     "more": {
         "label": "Meet the Team",
         "link": "/team"
@@ -9,23 +9,13 @@
     "items": [
         {
             "image": "img/team/1.png",
-            "name": "Sarah Chen",
-            "role": "Creative Director"
+            "name": "Sunyoung Noh",
+            "role": "Co-Founder & Creative Director"
         },
         {
             "image": "img/team/2.png",
-            "name": "Alex Rodriguez",
-            "role": "Lead Designer"
-        },
-        {
-            "image": "img/team/3.png",
-            "name": "Emma Newman",
-            "role": "Copywriter"
-        },
-        {
-            "image": "img/team/4.png",
-            "name": "Emma Newman",
-            "role": "Copywriter"
+            "name": "Sun Park",
+            "role": "Co-Founder & Creative Director"
         }
     ]
 }

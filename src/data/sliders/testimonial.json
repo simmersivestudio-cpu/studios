@@ -7,28 +7,28 @@
     },
     "items": [
         {
-            "name": "Paul Trueman",
-            "image": "img/team/1.png",
-            "role": "CEO Mil design studio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+            "name": "Michael Chen",
+            "image": "img/team/review-1.png",
+            "role": "CEO, TechFlow Solutions",
+            "text": "Studio S transformed our brand with their exceptional video production services. The team captured our vision perfectly and delivered content that resonated with our audience. Their professionalism and creativity exceeded all expectations."
         },
         {
-            "name": "Paul Trueman",
-            "image": "img/team/2.png",
-            "role": "CEO Mil design studio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+            "name": "Jessica Martinez",
+            "image": "img/team/review-2.png",
+            "role": "Marketing Director, GreenLeaf Co",
+            "text": "The UI/UX design work from Studio S completely revolutionized our digital presence. They created an intuitive, beautiful interface that our users love. The attention to detail and user-centered approach made all the difference."
         },
         {
-            "name": "Paul Trueman",
-            "image": "img/team/3.png",
-            "role": "CEO Mil design studio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+            "name": "David Thompson",
+            "image": "img/team/review-3.png",
+            "role": "Founder, Apex Ventures",
+            "text": "Working with Studio S on our web development project was seamless. They built a fast, scalable website that perfectly aligned with our business goals. Their technical expertise and clear communication made the entire process smooth."
         },
         {
-            "name": "Paul Trueman",
-            "image": "img/team/4.png",
-            "role": "CEO Mil design studio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni, voluptas accusamus ducimus officia at ipsam veniam ratione alias vero, totam non quam nesciunt deleniti qui, sunt quaerat. Fugit, enim!"
+            "name": "Sarah Williams",
+            "image": "img/team/review-4.png",
+            "role": "CMO, Bright Horizon Media",
+            "text": "Studio S managed our social media advertising campaigns brilliantly. They developed creative strategies that significantly increased our engagement and ROI. Their data-driven approach and compelling ad content delivered measurable results."
         }
     ]
 }

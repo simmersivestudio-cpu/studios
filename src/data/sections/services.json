@@ -3,31 +3,31 @@
     "items": [
         {
             "num": "01",
-            "title": "Digital Strategy",
+            "title": "Video Production",
             "icon": "img/icons/1.svg",
-            "text": "Strategic digital solutions tailored to your business goals, helping you navigate the digital landscape effectively.",
-            "link": "/services/digital-strategy"
+            "text": "Professional video content creation from concept to final delivery, telling your story and engaging your audience.",
+            "link": "/services/video-production"
         },
         {
             "num": "02",
-            "title": "UX/UI Design",
+            "title": "UI/UX Design",
             "icon": "img/icons/2.svg",
-            "text": "Creating intuitive and engaging user experiences that delight your customers and drive business results.",
-            "link": "/services/ux-ui-design"
+            "text": "User-centered design solutions that create beautiful, intuitive interfaces and exceptional digital experiences.",
+            "link": "/services/uiux-design"
         },
         {
             "num": "03",
             "title": "Web Development",
             "icon": "img/icons/3.svg",
-            "text": "Building robust, scalable websites and applications using cutting-edge technologies and best practices.",
+            "text": "Custom web solutions that are fast, secure, and scalable, bringing your designs to life with modern frameworks.",
             "link": "/services/web-development"
         },
         {
             "num": "04",
-            "title": "Brand Identity",
+            "title": "Social Media Advertisement",
             "icon": "img/icons/4.svg",
-            "text": "Crafting memorable brand identities through innovative design, storytelling, and visual communication.",
-            "link": "/services/brand-identity"
+            "text": "Strategic paid social campaigns that reach your target audience and drive measurable results across platforms.",
+            "link": "/services/social-media-advertisement"
         }
     ]
 }

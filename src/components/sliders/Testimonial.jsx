@@ -22,11 +22,11 @@ const TestimonialSlider = () => {
                     <h3 className="mil-appearance mil-mb-30">{Data.title}</h3>
                     
                     {/* button */}
-                    <div className="mil-appearance">
+                    {/* <div className="mil-appearance">
                         <a href="#." className="mil-button mil-button-md mil-scale-down-trigger mil-buttons-space">
                           <span>{Data.button.label}</span>
                         </a>
-                    </div>
+                    </div> */}
 
                 </div>
                 <div className="col-lg-12 col-xl-9 mil-mb-120">
