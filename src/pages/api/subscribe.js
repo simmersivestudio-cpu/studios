@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
     // Send notification email to yourself about new subscriber
     const data = await resend.emails.send({
-      from: 'newsletter@studios-connect.com',
+      from: 'onboarding@resend.dev', // Using Resend test domain until studios-connect.com is verified
       to: 'simmersivestudio@gmail.com', // Your receiving email
       subject: 'New Newsletter Subscription',
       html: `
@@ -36,7 +36,7 @@ export default async function handler(req, res) {
 
     // Optionally, send a welcome email to the subscriber
     await resend.emails.send({
-      from: 'newsletter@studios-connect.com',
+      from: 'onboarding@resend.dev', // Using Resend test domain until studios-connect.com is verified
       to: email,
       subject: 'Welcome to Studio S Newsletter',
       html: `
