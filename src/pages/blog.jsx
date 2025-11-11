@@ -10,13 +10,13 @@ import { getPaginatedPostsData } from "../lib/posts";
 export const Content = {
   "subtitle": "Newsletter",
   "title": "News from the life <br />of our agency.",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fuga ratione cum maxime ullam id voluptatibus commodi dolorem at, aut, odio, amet quod molestias possimus. Sunt repudiandae ipsam, consectetur repellendus."
+  "description": "Stay updated with the latest insights on AI, AR/VR, and emerging technologies shaping the creative industry. Subscribe to our weekly newsletter for expert perspectives, industry trends, and practical tips to elevate your digital presence."
 }
 
 const Blog = ( { posts, totalPosts, currentPage } ) => {
   return (
     <Layouts>
-      <PageBanner pageImage={"img/content/11.jpg"} pageTitle={"Blog"} />
+      <PageBanner pageImage={"img/blog/1.jpg"} pageTitle={"Blog"} />
 
       <div className="mil-spacer" />
 

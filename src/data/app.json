@@ -50,6 +50,28 @@
                 ]
             },
             {
+                "label": "Blog",
+                "link": "/blog",
+                "children": [
+                    {
+                        "label": "Blog List",
+                        "link": "/blog"
+                    },
+                    {
+                        "label": "AI in Creative Industry",
+                        "link": "/blog/ai-revolutionizing-creative-industry"
+                    },
+                    {
+                        "label": "AR/VR Trends 2025",
+                        "link": "/blog/ar-vr-trends-spatial-computing"
+                    },
+                    {
+                        "label": "Future of Digital Experiences",
+                        "link": "/blog/future-of-digital-experiences"
+                    }
+                ]
+            },
+            {
                 "label": "Contact",
                 "link": "/contact",
                 "children": 0
