@@ -5,7 +5,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export default async function handler(req, res) {
   try {
     const result = await resend.emails.send({
-      from: 'Studio S <onboarding@resend.dev>',
+      from: 'Studio S <newsletter@studios-connect.com>',
       to: 'simmersivestudio@gmail.com', // Your email
       subject: 'Test Email from Studio S',
       html: '<h1>Hello!</h1><p>This is a test email to verify Resend is working.</p>',

@@ -40,33 +40,52 @@ export default async function handler(req, res) {
       date: blogPost.date,
     });
 
-    // Send emails to all subscribers
-    const results = await Promise.allSettled(
-      subscribers.map(async (email) => {
-        try {
-          const result = await resend.emails.send({
-            // Use onboarding domain until studios-connect.com SPF/DMARC are verified
-            // Once fully verified, change to: 'Studio S Newsletter <newsletter@studios-connect.com>'
-            from: 'Studio S <onboarding@resend.dev>',
-            to: email,
-            subject: `New from Studio S: ${blogPost.title}`,
-            html: htmlContent,
-            text: textContent,
+    // Helper function to delay execution
+    const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+    // Send emails to all subscribers with rate limit handling
+    // Resend free plan: 2 requests per second, so we send in batches
+    const results = [];
+    for (let i = 0; i < subscribers.length; i++) {
+      const email = subscribers[i];
+      
+      try {
+        const result = await resend.emails.send({
+          from: 'Studio S Newsletter <newsletter@studios-connect.com>',
+          to: email,
+          subject: `New from Studio S: ${blogPost.title}`,
+          html: htmlContent,
+          text: textContent,
+        });
+        console.log(`Email sent to ${email}:`, result);
+        
+        // Check if Resend returned an error
+        if (result.error) {
+          results.push({ 
+            status: 'rejected', 
+            reason: new Error(result.error.message),
+            email 
           });
-          console.log(`Email sent to ${email}:`, result);
-          
-          // Check if Resend returned an error
-          if (result.error) {
-            throw new Error(result.error.message);
-          }
-          
-          return { email, result };
-        } catch (error) {
-          console.error(`Failed to send to ${email}:`, error);
-          throw error;
+        } else {
+          results.push({ 
+            status: 'fulfilled', 
+            value: { email, result } 
+          });
         }
-      })
-    );
+      } catch (error) {
+        console.error(`Failed to send to ${email}:`, error);
+        results.push({ 
+          status: 'rejected', 
+          reason: error,
+          email 
+        });
+      }
+      
+      // Wait 600ms between sends (allows ~1.6 emails/sec, under the 2/sec limit)
+      if (i < subscribers.length - 1) {
+        await delay(600);
+      }
+    }
 
     // Count successful sends and get detailed results
     const successful = results.filter(r => r.status === 'fulfilled').length;

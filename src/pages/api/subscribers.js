@@ -9,7 +9,10 @@ export default async function handler(req, res) {
 
   try {
     const segmentId = process.env.RESEND_AUDIENCE_ID; // Named AUDIENCE_ID but contains segment ID
+    const apiKey = process.env.RESEND_API_KEY;
     
+    console.log('API Key (first 10 chars):', apiKey?.substring(0, 10));
+    console.log('API Key length:', apiKey?.length);
     console.log('Fetching subscribers for segment:', segmentId);
     
     if (!segmentId) {
