@@ -7,6 +7,7 @@ imageWidth: 1920
 imageHeight: 1080
 category:
      - VR
+autoplay: false    
 
 #full details
 details:

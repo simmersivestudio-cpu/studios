@@ -187,6 +187,32 @@ const ProjectDetail = ( props ) => {
                                 </div>
                               ) : (
                                 // Image/Video Item
+                              <>
+                              {item.image.endsWith('.mp4') ? (
+                                // Video without popup
+                                <div className={ postData.gallery.style == "vertical" ? "mil-appearance mil-just-image mil-image-vert mil-mb-30" : "mil-appearance mil-just-image mil-image-hori mil-mb-30" }>
+                                  <video 
+                                    className="mil-scale-img" 
+                                    data-value-1="1" 
+                                    data-value-2="1.1" 
+                                    autoPlay={item.autoplay !== false ? "autoplay" : undefined}
+                                    loop="loop" 
+                                    muted="true" 
+                                    playsInline="true" 
+                                    controls 
+                                    onContextMenu={(e)=> e.preventDefault()} 
+                                    preload="auto"
+                                    style={{
+                                      width: '100%',
+                                      height: '100%',
+                                      objectFit: 'cover'
+                                    }}
+                                  >
+                                    <source src={item.image} />
+                                  </video>
+                                </div>
+                              ) : (
+                                // Image with popup
                               <Item
                                 original={item.image}
                                 thumbnail={item.image}
@@ -195,32 +221,12 @@ const ProjectDetail = ( props ) => {
                               >
                                 {({ ref, open }) => (
                                 <a data-fancybox="gallery" data-no-swup ref={ref} onClick={open} className={ postData.gallery.style == "vertical" ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30" : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" } style={{ "cursor": "pointer" }}>
-                                  {item.image.endsWith('.mp4') ? (
-                                    <video 
-                                      className="mil-scale-img" 
-                                      data-value-1="1" 
-                                      data-value-2="1.1" 
-                                      autoPlay={item.autoplay !== false ? "autoplay" : undefined}
-                                      loop="loop" 
-                                      muted="true" 
-                                      playsInline="true" 
-                                      controls 
-                                      onContextMenu={(e)=> e.preventDefault()} 
-                                      preload="auto"
-                                      style={{
-                                        width: '100%',
-                                        height: '100%',
-                                        objectFit: 'cover'
-                                      }}
-                                    >
-                                      <source src={item.image} />
-                                    </video>
-                                  ) : (
                                     <img src={item.image} alt={item.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
-                                  )}
                                 </a>
-                              )}
+                                )}
                               </Item>
+                              )}
+                              </>
                               )}
                           </div>
                           );
@@ -249,7 +255,7 @@ const ProjectDetail = ( props ) => {
           {typeof postData.finalImage != "undefined" &&
             <>
               {postData.finalImage.enabled == 1 &&
-              <div className="row justify-content-center mil-p-0-90">
+              <div className="row justify-content-center mil-p-60-60">
                   <div className="col-lg-12 col-xl-9">
                       {postData.finalImage.image.endsWith('.pdf') ? (
                         // PDF Final Image
@@ -308,6 +314,32 @@ const ProjectDetail = ( props ) => {
                         </div>
                       ) : (
                         // Regular Image/Video
+                      <>
+                      {postData.finalImage.image.endsWith('.mp4') ? (
+                        // Video without popup
+                        <div className="mil-appearance mil-just-image mil-image-hori mil-mb-30">
+                          <video 
+                            className="mil-scale-img" 
+                            data-value-1="1" 
+                            data-value-2="1.1" 
+                            autoPlay={postData.finalImage.autoplay !== false ? "autoplay" : undefined} 
+                            loop="loop" 
+                            muted="true" 
+                            playsInline="true" 
+                            controls 
+                            onContextMenu={(e)=> e.preventDefault()} 
+                            preload="auto"
+                            style={{
+                              width: '100%',
+                              height: 'auto',
+                              display: 'block'
+                            }}
+                          >
+                            <source src={postData.finalImage.image} />
+                          </video>
+                        </div>
+                      ) : (
+                        // Image with popup
                       <Item
                         original={postData.finalImage.image}
                         thumbnail={postData.finalImage.image}
@@ -316,16 +348,12 @@ const ProjectDetail = ( props ) => {
                       >
                       {({ ref, open }) => (
                       <a data-fancybox="gallery" data-no-swup ref={ref} onClick={open} className="mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" style={{ "cursor": "pointer" }}>
-                          {postData.finalImage.image.endsWith('.mp4') ? (
-                            <video className="mil-scale-img" data-value-1="1" data-value-2="1.1" autoPlay={postData.finalImage.autoplay !== false ? "autoplay" : undefined} loop="loop" muted="true" playsInline="true" controls onContextMenu={(e)=> e.preventDefault()} preload="auto">
-                              <source src={postData.finalImage.image} />
-                            </video>
-                          ) : (
                             <img src={postData.finalImage.image} alt={postData.finalImage.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.1" />
-                          )}
                       </a>
                       )}
                       </Item>
+                      )}
+                      </>
                       )}
                   </div>
               </div>

@@ -1,24 +1,24 @@
 ---
 #preview
-title: Interactive Web Experience
-type: image
-image: /img/portfolio/project12/1.jpg
-imageWidth: 1400
-imageHeight: 900
+title: National Marine Training Center Promotional Video
+type: video
+image: /img/portfolio/project12/nmtc_promo_1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - Web Design
-    - Interactive
+    - Video
+autoplay: false
 
 #full details
 details:
     - label: "Client"
-      value: "Creative Agency"
+      value: "National Marine Training Centery"
 
     - label: "Date"
-      value: "September 2025"
+      value: "2014 -2020"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
     enabled: 0
@@ -26,31 +26,28 @@ description0:
 
 description1:
     enabled: 1
-    heading: "Next-Generation Web Interface"
+    heading: "NNMTC Promotional Video"
     content: "
-        Crafted a stunning interactive web experience that pushes the boundaries of modern web design. This project features smooth animations, parallax scrolling, and dynamic content loading that creates an engaging journey for users. Every interaction is carefully designed to delight and inform visitors.
+        Filmed and produced a professional promo video.
     "
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project12/2.jpg
-          width: 800
-          height: 600
-          alt: "Homepage Design"
+        - type: video
+          image: /img/portfolio/project12/nmtc_facility_expansion_1.mp4
+          width: 1920
+          height: 1080
+          alt: "video"
 
-        - image: /img/portfolio/project12/3.jpg
-          width: 800
-          height: 600
-          alt: "Interactive Elements"
+        - type: video
+          image: /img/portfolio/project12/nmtc_tactical_water_1.mp4
+          width: 1920
+          height: 1080
+          alt: "video"
 
-        - image: /img/portfolio/project12/4.jpg
-          width: 800
-          height: 1200
-          alt: "Mobile Interface"
-
-    cols: 3
-    style: "vertical"
+    cols: 2
+    style: "horizontal"
 
 description2:
     enabled: 1
@@ -60,10 +57,11 @@ description2:
     "
 
 finalImage:
-    enabled: 0
-    image: "/img/portfolio/project12/5.jpg"
-    width: 1200
-    height: 800    
+    enabled: 1
+    type: video
+    image: "img/portfolio/project12/nmtc_training_1.mp4"
+    width: 1920
+    height: 1080  
     alt: "Final Website"
 
 description3:

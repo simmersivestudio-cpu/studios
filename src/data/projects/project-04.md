@@ -7,6 +7,7 @@ imageWidth: 1300
 imageHeight: 1300
 category:
     - AR
+autoplay: false
 
 #full details
 details:
