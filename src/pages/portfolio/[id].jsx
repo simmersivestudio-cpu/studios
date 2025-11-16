@@ -1,5 +1,7 @@
 import Layouts from "@layouts/Layouts";
 import PageBanner from "@components/PageBanner";
+import PDFViewer from "@components/PDFViewer";
+import { useState } from 'react';
 
 import 'photoswipe/dist/photoswipe.css'
 
@@ -12,6 +14,7 @@ import RelatedProjectsSection from "@components/sections/RelatedProjects";
 const ProjectDetail = ( props ) => {
   
   const postData = props.data;
+  const [pdfUrl, setPdfUrl] = useState(null);
 
   return (
     <Layouts>
@@ -109,8 +112,81 @@ const ProjectDetail = ( props ) => {
               <div className="row justify-content-center mil-p-120-0">
                   <div className="col-lg-12 col-xl-9">
                       <div className="row">
-                          {postData.gallery.items.map((item, key) => (
+                          {postData.gallery.items.map((item, key) => {
+                            // Debug logging
+                            if (item.image.endsWith('.pdf')) {
+                              console.log('PDF Item:', {
+                                image: item.image,
+                                thumbnail: item.thumbnail,
+                                hasThumbnail: !!item.thumbnail
+                              });
+                            }
+                            
+                            return (
                           <div className={ postData.gallery.cols == 3 ? "col-lg-4" : "col-lg-6"} key={`gallery-item-${key}`}>
+                              {item.image.endsWith('.pdf') ? (
+                                // PDF Thumbnail
+                                <div 
+                                  onClick={() => setPdfUrl(item.image)}
+                                  className={ postData.gallery.style == "vertical" ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30" : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30" }
+                                  style={{ 
+                                    cursor: "pointer",
+                                    position: 'relative',
+                                    overflow: 'hidden'
+                                  }}
+                                >
+                                  {item.thumbnail ? (
+                                    // Custom thumbnail image
+                                    <>
+                                      <img 
+                                        src={item.thumbnail} 
+                                        alt={item.alt} 
+                                        className="mil-scale-img" 
+                                        data-value-1="1" 
+                                        data-value-2="1.1"
+                                        onError={(e) => {
+                                          console.error('Failed to load thumbnail:', item.thumbnail);
+                                        }}
+                                      />
+                                      {/* PDF Badge Overlay */}
+                                      <div style={{
+                                        position: 'absolute',
+                                        top: '10px',
+                                        right: '10px',
+                                        background: 'rgba(0, 0, 0, 0.8)',
+                                        color: 'white',
+                                        padding: '5px 12px',
+                                        borderRadius: '5px',
+                                        fontSize: '12px',
+                                        fontWeight: 'bold',
+                                        zIndex: 10
+                                      }}>
+                                        📄 PDF
+                                      </div>
+                                    </>
+                                  ) : (
+                                    // Default PDF icon
+                                    <div style={{
+                                      background: '#f5f5f5',
+                                      display: 'flex',
+                                      alignItems: 'center',
+                                      justifyContent: 'center',
+                                      minHeight: '300px'
+                                    }}>
+                                      <div style={{ textAlign: 'center', padding: '20px' }}>
+                                        <div style={{ fontSize: '48px', marginBottom: '10px' }}>📄</div>
+                                        <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#333' }}>
+                                          {item.alt || 'View PDF'}
+                                        </div>
+                                        <div style={{ fontSize: '12px', color: '#666', marginTop: '5px' }}>
+                                          Click to view
+                                        </div>
+                                      </div>
+                                    </div>
+                                  )}
+                                </div>
+                              ) : (
+                                // Image/Video Item
                               <Item
                                 original={item.image}
                                 thumbnail={item.image}
@@ -145,8 +221,10 @@ const ProjectDetail = ( props ) => {
                                 </a>
                               )}
                               </Item>
+                              )}
                           </div>
-                          ))}
+                          );
+                          })}
                       </div>
                   </div>
               </div>
@@ -173,6 +251,63 @@ const ProjectDetail = ( props ) => {
               {postData.finalImage.enabled == 1 &&
               <div className="row justify-content-center mil-p-0-90">
                   <div className="col-lg-12 col-xl-9">
+                      {postData.finalImage.image.endsWith('.pdf') ? (
+                        // PDF Final Image
+                        <div 
+                          onClick={() => setPdfUrl(postData.finalImage.image)}
+                          className="mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30"
+                          style={{ 
+                            cursor: "pointer",
+                            position: 'relative',
+                            overflow: 'hidden'
+                          }}
+                        >
+                          {postData.finalImage.thumbnail ? (
+                            <>
+                              <img 
+                                src={postData.finalImage.thumbnail} 
+                                alt={postData.finalImage.alt} 
+                                className="mil-scale-img" 
+                                data-value-1="1" 
+                                data-value-2="1.1"
+                              />
+                              <div style={{
+                                position: 'absolute',
+                                top: '10px',
+                                right: '10px',
+                                background: 'rgba(0, 0, 0, 0.8)',
+                                color: 'white',
+                                padding: '8px 16px',
+                                borderRadius: '5px',
+                                fontSize: '14px',
+                                fontWeight: 'bold',
+                                zIndex: 10
+                              }}>
+                                📄 PDF
+                              </div>
+                            </>
+                          ) : (
+                            <div style={{
+                              background: '#f5f5f5',
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              minHeight: '400px'
+                            }}>
+                              <div style={{ textAlign: 'center', padding: '20px' }}>
+                                <div style={{ fontSize: '64px', marginBottom: '10px' }}>📄</div>
+                                <div style={{ fontSize: '18px', fontWeight: 'bold', color: '#333' }}>
+                                  {postData.finalImage.alt || 'View PDF'}
+                                </div>
+                                <div style={{ fontSize: '14px', color: '#666', marginTop: '10px' }}>
+                                  Click to view
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      ) : (
+                        // Regular Image/Video
                       <Item
                         original={postData.finalImage.image}
                         thumbnail={postData.finalImage.image}
@@ -191,6 +326,7 @@ const ProjectDetail = ( props ) => {
                       </a>
                       )}
                       </Item>
+                      )}
                   </div>
               </div>
               }
@@ -213,6 +349,9 @@ const ProjectDetail = ( props ) => {
 
           </Gallery>
       </div>
+
+      {/* PDF Viewer Modal */}
+      {pdfUrl && <PDFViewer pdfUrl={pdfUrl} onClose={() => setPdfUrl(null)} />}
 
       <RelatedProjectsSection items={props.related} />
 
