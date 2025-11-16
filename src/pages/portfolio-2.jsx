@@ -113,7 +113,7 @@ const PortfolioTwo = (props) => {
                                 <img src={item.image} alt={item.title} />
                                 }
                                 {item.type == "video" &&
-                                <video className="mil-video-background" data-value="1.2" autoPlay="autoplay" loop="loop" muted="true" playsInline="true" onContextMenu={(e)=> e.preventDefault()} preload="auto">
+                                <video className="mil-video-background" data-value="1.2" autoPlay={item.autoplay !== false ? "autoplay" : undefined} loop="loop" muted="true" playsInline="true" onContextMenu={(e)=> e.preventDefault()} preload="auto">
                                     <source src={item.image} />
                                 </video>
                                 }

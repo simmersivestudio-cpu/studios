@@ -17,6 +17,7 @@ imageWidth: 1920
 imageHeight: 1080
 category:
     - Video
+autoplay: false
 
 #full details
 details:
