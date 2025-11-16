@@ -21,36 +21,38 @@ details:
       value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "NNMTC Promotional Video - Filmed and produced a professional promo video."
 
 description1:
-    enabled: 1
-    heading: "NNMTC Promotional Video"
+    enabled: 0
+    heading: ""
     content: "
-        Filmed and produced a professional promo video.
     "
 
 gallery: 
     enabled: 1
     items:
-        - type: video
-          image: /img/portfolio/project12/nmtc_facility_expansion_1.mp4
-          width: 1920
-          height: 1080
-          alt: "video"
+        - image: /img/portfolio/project1/2.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
 
-        - type: video
-          image: /img/portfolio/project12/nmtc_tactical_water_1.mp4
-          width: 1920
-          height: 1080
-          alt: "video"
+        - image: /img/portfolio/project1/3.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
 
-    cols: 2
-    style: "horizontal"
+        - image: /img/portfolio/project1/4.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
+
+    cols: 3
+    style: "vertical"
 
 description2:
-    enabled: 1
+    enabled: 0
     heading: "Cutting-Edge Development Techniques"
     content: "
         Built using the latest web technologies including WebGL, CSS Grid, and advanced JavaScript frameworks. The site features optimized performance, accessibility compliance, and responsive design that works flawlessly across all devices and browsers.
@@ -58,11 +60,11 @@ description2:
 
 finalImage:
     enabled: 1
-    type: video
-    image: "img/portfolio/project12/nmtc_training_1.mp4"
-    width: 1920
-    height: 1080  
-    alt: "Final Website"
+    image: "/img/portfolio/project1/5.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
+
 
 description3:
     enabled: 1

@@ -31,8 +31,9 @@ details:
       value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "Promotional and Training Videos - Over the past five years, I have traveled to various U.S. government facilities to film and produce a wide range of promotional and training videos. During this time, I developed skills in motion graphics and video production, including filming with the Sony A7III for both video and photography.  
+    "
 
 description1:
     enabled: 1
@@ -57,6 +58,46 @@ gallery:
           width: 2340
           height: 1256
           alt: "Story Board PDF"
+
+        - image: /img/portfolio/project11/1.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/2.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/3.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/4.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/5.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/6.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/7.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/8.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
 
     cols: 2
     style: "horizontal"
