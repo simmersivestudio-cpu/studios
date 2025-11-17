@@ -1,8 +1,9 @@
 ---
 #preview
-title: National Marine Training Center Promotional Video
+title: National Marine Training Center |Promotional Video
 type: video
 image: /img/portfolio/project12/nmtc_promo_1.mp4
+previewImage: /img/portfolio/project12/1.png
 imageWidth: 1920
 imageHeight: 1080
 category:

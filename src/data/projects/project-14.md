@@ -1,9 +1,9 @@
 ---
 #preview
-title: U.S. Customs and Border Protection 
+title: U.S. Customs and Border Protection | 3D Logo Animation
 type: video
 image: /img/portfolio/project14/1.mp4
-imageWidth: 1920
+previewImage: /img/portfolio/project14/2.jpg
 imageHeight: 1080
 category:
      - Video

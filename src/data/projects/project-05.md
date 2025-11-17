@@ -3,6 +3,7 @@
 title: Donovan Project | MetaHuman
 type: video
 image: /img/portfolio/project5/1.mp4
+previewImage: /img/portfolio/project5/1.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:

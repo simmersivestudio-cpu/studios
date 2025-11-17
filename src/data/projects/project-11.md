@@ -10,9 +10,10 @@
 #     - Training
 
 #preview
-title: U.S. Customs and Border Protection 
+title: U.S. Customs and Border Protection Training Videos
 type: video
 image: /img/portfolio/project11/us_customs_1.mp4
+previewImage: /img/portfolio/project11/motion_main.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:

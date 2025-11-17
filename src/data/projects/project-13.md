@@ -1,8 +1,7 @@
 ---
 #preview
-title: U.S. Customs and Border Protection 
-type: video
-image: /img/portfolio/project13/1.mp4
+title: U.S. Customs and Border Protection | Documentary
+image: /img/portfolio/project13/6.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:
