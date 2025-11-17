@@ -1,70 +1,70 @@
 ---
 #preview
-title: Interactive Web Experience
-type: image
-image: /img/portfolio/project12/1.jpg
-imageWidth: 1400
-imageHeight: 900
+title: National Marine Training Center Promotional Video
+type: video
+image: /img/portfolio/project12/nmtc_promo_1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - Web Design
-    - Interactive
+    - Video
+autoplay: false
 
 #full details
 details:
     - label: "Client"
-      value: "Creative Agency"
+      value: "National Marine Training Centery"
 
     - label: "Date"
-      value: "September 2025"
+      value: "2014 -2020"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "NNMTC Promotional Video - Filmed and produced a professional promo video."
 
 description1:
-    enabled: 1
-    heading: "Next-Generation Web Interface"
+    enabled: 0
+    heading: ""
     content: "
-        Crafted a stunning interactive web experience that pushes the boundaries of modern web design. This project features smooth animations, parallax scrolling, and dynamic content loading that creates an engaging journey for users. Every interaction is carefully designed to delight and inform visitors.
     "
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project12/2.jpg
-          width: 800
-          height: 600
-          alt: "Homepage Design"
+        - image: /img/portfolio/project1/2.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
 
-        - image: /img/portfolio/project12/3.jpg
-          width: 800
-          height: 600
-          alt: "Interactive Elements"
+        - image: /img/portfolio/project1/3.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
 
-        - image: /img/portfolio/project12/4.jpg
-          width: 800
-          height: 1200
-          alt: "Mobile Interface"
+        - image: /img/portfolio/project1/4.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
 
     cols: 3
     style: "vertical"
 
 description2:
-    enabled: 1
+    enabled: 0
     heading: "Cutting-Edge Development Techniques"
     content: "
         Built using the latest web technologies including WebGL, CSS Grid, and advanced JavaScript frameworks. The site features optimized performance, accessibility compliance, and responsive design that works flawlessly across all devices and browsers.
     "
 
 finalImage:
-    enabled: 0
-    image: "/img/portfolio/project12/5.jpg"
-    width: 1200
-    height: 800    
-    alt: "Final Website"
+    enabled: 1
+    image: "/img/portfolio/project1/5.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
+
 
 description3:
     enabled: 1

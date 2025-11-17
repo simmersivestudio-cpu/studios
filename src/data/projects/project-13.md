@@ -1,76 +1,121 @@
 ---
 #preview
-title: Mobile AR Shopping App
+title: U.S. Customs and Border Protection 
 type: video
 image: /img/portfolio/project13/1.mp4
-imageWidth: 750
-imageHeight: 1334
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - AR
-    - Mobile App
+     - VR
+autoplay: false    
 
 #full details
 details:
-    - label: "Client"
-      value: "Retail Innovation"
+     - label: "Client"
+       value: "U.S. Customs and Border "
 
-    - label: "Date"
-      value: "November 2025"
+     - label: "Date"
+       value: "2019"
 
-    - label: "Author"
-      value: "Studio S"
+     - label: "Author"
+       value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "
+       The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor. I created the 3D character, visual scenes and parking area based on the first person account of the ambush scene.
+    "
 
 description1:
     enabled: 1
-    heading: "Revolutionary Shopping Experience"
+    heading: "Survivor Story Documentary"
     content: "
-        Developed a groundbreaking mobile AR application that transforms how customers shop for furniture and home decor. Users can visualize products in their actual living spaces before purchasing, reducing returns and increasing customer satisfaction. The app uses advanced computer vision to accurately place and scale virtual objects in real environments.
+        The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor, capturing the emotional and detailed first-person account of the harrowing experience.
     "
+
 
 gallery: 
     enabled: 1
     items:
+        - image: /img/portfolio/project13/1.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
         - image: /img/portfolio/project13/2.jpg
-          width: 600
-          height: 800
-          alt: "AR Interface"
+          width: 1522
+          height: 1216
+          alt: "image"
 
         - image: /img/portfolio/project13/3.jpg
-          width: 600
-          height: 800
-          alt: "Product Placement"
+          width: 2160
+          height: 2160
+          alt: "image"
+        
+        - image: /img/portfolio/project13/4.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
 
-        - type: video
-          image: /img/portfolio/project13/4.mp4
-          width: 400
-          height: 600
-          alt: "AR Demo"
+        - image: /img/portfolio/project13/5.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
+
+        - image: /img/portfolio/project13/6.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
+
+        - image: /img/portfolio/project13/7.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
+        - image: /img/portfolio/project13/8.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
+
+        - image: /img/portfolio/project13/9.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
 
     cols: 3
     style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Advanced AR Technology Stack"
+    heading: "3D Reconstruction & Visual Storytelling"
     content: "
-        Built with ARCore and ARKit for cross-platform compatibility, the app features real-time lighting estimation, occlusion handling, and precise object tracking. Machine learning algorithms optimize placement suggestions based on room analysis and user preferences.
+        Created detailed 3D characters, visual scenes, and the parking area environment based on the first-person account of the ambush scene. Every element was meticulously designed to accurately represent the survivor's experience and bring authenticity to the visual narrative.
     "
 
 finalImage:
-    enabled: 0
-    image: "/img/portfolio/project13/5.jpg"
-    width: 800
-    height: 1200    
-    alt: "App Screenshots"
+    enabled: 1
+    image: "/img/portfolio/project13/ds_main.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
 
 description3:
     enabled: 1
-    heading: "Commercial Success & Impact"
+    heading: "Creative Tools"
     content: "
-        The AR shopping app has generated over 100,000 downloads in its first month, with a 45% increase in conversion rates for participating retailers. This innovative approach to e-commerce demonstrates the practical value of AR technology in everyday consumer experiences.
+        Our production pipeline integrated a range of industry-standard creative tools:
+
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+
+
+        Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+
+
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
+
 ---

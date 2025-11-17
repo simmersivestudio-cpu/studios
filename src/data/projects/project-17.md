@@ -1,82 +1,88 @@
 ---
 #preview
-title: Motion Graphics Campaign
+title: Ultra Botanica
 type: video
-image: /img/portfolio/project17/1.mp4
+image: /img/portfolio/project17/1.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:
-    - Motion Graphics
-    - Animation
-    - Marketing
+     - VR
+autoplay: false    
 
 #full details
 details:
     - label: "Client"
-      value: "Global Sports Brand"
+      value: "Ultra Botanica"
 
     - label: "Date"
-      value: "October 2025"
+      value: "2020"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "
+       Filmed using a Sony A7III and produced a promotional video for online advertising.
+    "
 
 description1:
     enabled: 1
-    heading: "Dynamic Visual Storytelling"
+    heading: "Professional On-Site Production"
     content: "
-        Created an electrifying motion graphics campaign that brought a global sports brand's new product line to life. The campaign features dynamic animations, kinetic typography, and seamless transitions that capture the energy and passion of athletic performance. Each piece was carefully crafted to resonate with diverse audiences across multiple platforms.
+        Filmed on-site at the Ultra Botanica factory and company facilities using a Sony A7III camera, capturing the manufacturing process and company culture. The promotional video was optimized for online advertising platforms to maximize reach and engagement.
     "
+
 
 gallery: 
     enabled: 1
     items:
         - image: /img/portfolio/project17/2.jpg
-          width: 1920
-          height: 1080
-          alt: "Key Frame Design"
+          width: 2340
+          height: 1256
+          alt: "image"
 
-        - type: video
-          image: /img/portfolio/project17/3.mp4
-          width: 800
-          height: 450
-          alt: "Animation Sequence"
+        - image: /img/portfolio/project17/3.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
 
         - image: /img/portfolio/project17/4.jpg
-          width: 1200
-          height: 1600
-          alt: "Social Media Assets"
+          width: 2160
+          height: 2160
+          alt: "image"
 
-        - image: /img/portfolio/project17/5.jpg
-          width: 1600
-          height: 900
-          alt: "Billboard Design"
-
-    cols: 2
+    cols: 3
     style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Cutting-Edge Animation Techniques"
+    heading: "Post-Production & Optimization"
     content: "
-        Employed advanced 3D animation, particle systems, and procedural generation to create visually stunning sequences. The motion graphics incorporate real athlete footage seamlessly blended with digital elements, creating a hyperrealistic aesthetic that celebrates human performance and brand innovation.
+        The footage captured with the Sony A7III was carefully edited and color-graded to showcase Ultra Botanica's brand identity. The final promotional video was optimized for various online advertising platforms, ensuring high-quality playback across desktop and mobile devices.
     "
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project17/6.jpg"
-    width: 1920
-    height: 1080    
-    alt: "Campaign Overview"
+    image: "/img/portfolio/project17/5.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
 
 description3:
     enabled: 1
-    heading: "Global Campaign Success"
+    heading: "Production Tools"
     content: "
-        The motion graphics campaign achieved over 50 million views across digital platforms, increasing brand engagement by 180% and driving record-breaking product sales. The campaign won multiple international advertising awards for its innovative approach to sports marketing.
+        Sony A7III – Professional mirrorless camera used for high-quality 4K video capture with excellent low-light performance and dynamic range.
+
+
+        Adobe Premiere Pro – Primary editing software for assembling footage, creating smooth transitions, and fine-tuning the narrative flow.
+
+
+        Adobe After Effects – Used for motion graphics, text animations, and visual effects to enhance the promotional content.
+
+
+        DaVinci Resolve – Color grading and correction to ensure consistent, professional-looking footage that aligns with Ultra Botanica's brand aesthetic.
     "
+
 ---

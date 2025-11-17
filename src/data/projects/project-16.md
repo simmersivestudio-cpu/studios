@@ -7,7 +7,8 @@ imageWidth: 1920
 imageHeight: 1080
 category:
     - AI
- 
+autoplay: false
+
 #full details
 details:
     - label: "Institution"

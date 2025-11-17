@@ -10,76 +10,117 @@
 #     - Training
 
 #preview
-title: Interactive Web Experience
-type: image
-image: /img/portfolio/project11/1.jpg
-imageWidth: 1400
-imageHeight: 900
+title: U.S. Customs and Border Protection 
+type: video
+image: /img/portfolio/project11/us_customs_1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - Web Design
-    - Interactive
+    - Video
+autoplay: false
 
 #full details
 details:
     - label: "Client"
-      value: "TechCorp Solutions"
+      value: "U.S. Customs and Border Protection"
 
     - label: "Date"
-      value: "October 2025"
+      value: "2014 -2020"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "Promotional and Training Videos - Over the past five years, I have traveled to various U.S. government facilities to film and produce a wide range of promotional and training videos. During this time, I developed skills in motion graphics and video production, including filming with the Sony A7III for both video and photography.  
+    "
 
 description1:
     enabled: 1
-    heading: "Immersive Learning Experience"
+    heading: "Promotional and Training Videos"
     content: "
-        Developed a comprehensive VR training simulation that revolutionizes corporate learning. This immersive environment allows employees to practice complex procedures in a risk-free virtual space, dramatically improving retention rates and skill acquisition. The simulation incorporates realistic physics, interactive elements, and performance tracking to create an engaging educational experience.
+        Over the past five years, I have traveled to various U.S. government facilities to film and produce a wide range of promotional and training videos. During this time, I developed skills in motion graphics and video production, including filming with the Sony A7III for both video and photography.
+
+
+        *Provided hand drawing storyboard. Click the PDF link to view below.  
     "
 
 gallery: 
     enabled: 1
     items:
+        - image: /img/portfolio/project11/motion_main.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/storyboard.pdf
+          thumbnail: /img/portfolio/project11/motion_storyboard.jpg
+          width: 2340
+          height: 1256
+          alt: "Story Board PDF"
+
+        - image: /img/portfolio/project11/1.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
         - image: /img/portfolio/project11/2.jpg
-          width: 1200
-          height: 800
-          alt: "VR Interface"
+          width: 1540
+          height: 958
+          alt: "Video"
 
         - image: /img/portfolio/project11/3.jpg
-          width: 1200
-          height: 800
-          alt: "Training Module"
+          width: 1540
+          height: 958
+          alt: "Video"
 
         - image: /img/portfolio/project11/4.jpg
-          width: 1200
-          height: 800
-          alt: "User Experience"
+          width: 1540
+          height: 958
+          alt: "Video"
 
-    cols: 3
+        - image: /img/portfolio/project11/5.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/6.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/7.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+        - image: /img/portfolio/project11/8.jpg
+          width: 1540
+          height: 958
+          alt: "Video"
+
+    cols: 2
     style: "horizontal"
 
 description2:
     enabled: 1
-    heading: "Advanced VR Technology Integration"
+    heading: "Motion Graphics & Visual Storytelling"
     content: "
-        Utilizing cutting-edge VR frameworks and haptic feedback systems, this project delivers unprecedented realism in virtual training environments. The application features spatial audio, gesture recognition, and adaptive difficulty scaling to provide personalized learning experiences for each user.
+        My work with U.S. Customs and Border Protection involved creating engaging motion graphics that effectively communicated complex operational procedures and organizational values. Using Adobe After Effects and Premiere Pro, I developed animated sequences that transformed technical information into visually compelling narratives for both internal training and public outreach initiatives.
     "
 
 finalImage:
-    enabled: 0
-    image: "/img/portfolio/project11/5.jpg"
-    width: 1200
-    height: 800    
-    alt: "Final Result"
+    enabled: 1
+    image: /img/portfolio/project11/storyboard.pdf
+    thumbnail: /img/portfolio/project11/motion_storyboard.jpg
+    width: 2340
+    height: 1256
+    alt: "Story Board PDF"
 
 description3:
     enabled: 1
-    heading: "Measurable Training Outcomes"
+    heading: "On-Location Production Expertise"
     content: "
-        The VR training simulation has demonstrated a 40% improvement in knowledge retention compared to traditional methods, with completion rates exceeding 95%. This innovative approach to corporate training sets new standards for interactive learning.
+        Throughout this multi-year engagement, I conducted on-site filming at secure government facilities across the country, managing all aspects of video production from pre-production planning and storyboarding to post-production editing. This experience strengthened my ability to work in high-security environments while delivering professional-quality content under strict deadlines and compliance requirements.
     "
 ---
