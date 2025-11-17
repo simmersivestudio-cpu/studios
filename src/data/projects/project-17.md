@@ -43,13 +43,8 @@ gallery:
           alt: "image"
 
         - image: /img/portfolio/project17/3.jpg
-          width: 1522
-          height: 1216
-          alt: "image"
-
-        - image: /img/portfolio/project17/4.jpg
-          width: 2160
-          height: 2160
+          width: 2340
+          height: 1256
           alt: "image"
 
     cols: 3
@@ -63,7 +58,7 @@ description2:
     "
 
 finalImage:
-    enabled: 1
+    enabled: 0
     image: "/img/portfolio/project17/5.jpg"
     width: 2340
     height: 1256    

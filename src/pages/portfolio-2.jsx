@@ -109,14 +109,21 @@ const PortfolioTwo = (props) => {
 
                         <div className="mil-cover mil-square mil-scale-down-trigger mil-accent-trigger">
                             <div className="mil-image-frame">
-                                {item.type != "video" &&
-                                <img src={item.image} alt={item.title} />
-                                }
-                                {item.type == "video" &&
-                                <video className="mil-video-background" data-value="1.2" autoPlay={item.autoplay !== false ? "autoplay" : undefined} loop="loop" muted="true" playsInline="true" onContextMenu={(e)=> e.preventDefault()} preload="auto">
-                                    <source src={item.image} />
-                                </video>
-                                }
+                                {/* Use previewImage if available, otherwise fall back to image */}
+                                {item.previewImage ? (
+                                  <img src={item.previewImage} alt={item.title} />
+                                ) : (
+                                  <>
+                                    {item.type != "video" &&
+                                    <img src={item.image} alt={item.title} />
+                                    }
+                                    {item.type == "video" &&
+                                    <video className="mil-video-background" data-value="1.2" autoPlay={item.autoplay !== false ? "autoplay" : undefined} loop="loop" muted="true" playsInline="true" onContextMenu={(e)=> e.preventDefault()} preload="auto">
+                                        <source src={item.image} />
+                                    </video>
+                                    }
+                                  </>
+                                )}
                             </div>
                         </div>
                         <Link href={`portfolio/${item.id}`} className="mil-item-description mil-icon-2-trigger mil-accent-trigger">

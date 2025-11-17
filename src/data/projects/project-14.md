@@ -43,8 +43,8 @@ gallery:
           alt: "image"
 
         - image: /img/portfolio/project14/2.jpg
-          width: 1522
-          height: 1216
+          width: 1540
+          height: 958
           alt: "image"
 
         - image: /img/portfolio/project14/3.jpg

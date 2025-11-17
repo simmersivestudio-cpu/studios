@@ -95,8 +95,8 @@ description2:
 finalImage:
     enabled: 1
     image: "/img/portfolio/project13/ds_main.jpg"
-    width: 2340
-    height: 1256    
+    width: 1540
+    height: 958    
     alt: "image"
 
 description3:

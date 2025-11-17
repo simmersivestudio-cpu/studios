@@ -38,18 +38,18 @@ gallery:
     enabled: 1
     items:
         - image: /img/portfolio/project5/2.jpg
-          width: 2340
-          height: 1256
+          width: 1540
+          height: 958
           alt: "image"
 
         - image: /img/portfolio/project5/3.jpg
-          width: 1522
-          height: 1216
+          width: 1540
+          height: 958
           alt: "image"
 
         - image: /img/portfolio/project5/4.jpg
-          width: 2160
-          height: 2160
+          width: 2340
+          height: 1256
           alt: "image"
 
     cols: 3

@@ -46,21 +46,6 @@ gallery:
           height: 5280
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-        - image: /img/portfolio/project/9.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-        - image: /img/portfolio/project/10.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
     cols: 2
     style: "horizontal"
 
@@ -84,4 +69,11 @@ description3:
     content: "
         Maintained strict adherence to National Geographic's brand standards while innovating design solutions for digital commerce. Collaborated closely with the NG Brand Marketing group to ensure all visual elements, typography, and user interface components reflected the organization's commitment to exploration, education, and environmental conservation.
     "
+
+finalImage:
+    enabled: 0
+    image: "/img/portfolio/project/11.jpg"
+    width: 900
+    height: 1200    
+    alt: "image"
 ---

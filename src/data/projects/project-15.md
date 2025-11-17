@@ -43,13 +43,13 @@ gallery:
           alt: "image"
 
         - image: /img/portfolio/project15/2.jpg
-          width: 1522
-          height: 1216
+          width: 2340
+          height: 1256
           alt: "image"
 
         - image: /img/portfolio/project15/3.jpg
-          width: 2160
-          height: 2160
+          width: 2340
+          height: 1256
           alt: "image"
         
         - image: /img/portfolio/project15/4.jpg
@@ -58,13 +58,13 @@ gallery:
           alt: "image"
 
         - image: /img/portfolio/project15/5.jpg
-          width: 1522
-          height: 1216
+          width: 2340
+          height: 1256
           alt: "image"
 
         - image: /img/portfolio/project15/6.jpg
-          width: 2160
-          height: 2160
+          width: 1540
+          height: 958
           alt: "image"
 
     cols: 3

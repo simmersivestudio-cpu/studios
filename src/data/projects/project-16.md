@@ -42,28 +42,28 @@ gallery:
           alt: "Holographic Projection"
 
         - image: /img/portfolio/project16/2.jpg
-          width: 800
-          height: 600
+          width: 3840
+          height: 2160
           alt: "Live Demo"
 
         - image: /img/portfolio/project16/3.jpg
-          width: 1400
-          height: 900
+          width: 3840
+          height: 2160
           alt: "Holographic Projection"
 
         - image: /img/portfolio/project16/4.jpg
-          width: 800
-          height: 600
+          width: 508
+          height: 508
           alt: "Live Demo"
 
         - image: /img/portfolio/project16/5.jpg
-          width: 1400
-          height: 900
+          width: 3834
+          height: 2784
           alt: "Holographic Projection"
 
         - image: /img/portfolio/project16/6.jpg
-          width: 800
-          height: 600
+          width: 3840
+          height: 2835
           alt: "Live Demo"
 
     cols: 3

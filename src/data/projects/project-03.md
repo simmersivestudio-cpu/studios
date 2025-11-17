@@ -57,7 +57,7 @@ gallery:
 
         - image: /img/portfolio/project3/4.jpg
           width: 1588
-          height: 1558
+          height: 1588
           alt: "image"
 
     cols: 3

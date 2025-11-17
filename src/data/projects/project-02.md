@@ -2,10 +2,10 @@
 #preview
 title: The White House Situation Room
 image: /img/portfolio/project2/1.jpg
-imageWidth: 1200
-imageHeight: 1217
+imageWidth: 1160
+imageHeight: 773
 category: 
-    - AI
+    - Video
 
 #full details
 details:
@@ -44,23 +44,23 @@ gallery:
     enabled: 1
     items:
         - image: /img/portfolio/project2/2.jpg
-          width: 1200
-          height: 1600
+          width: 3456
+          height: 2234
           alt: "image"
 
         - image: /img/portfolio/project2/3.jpg
-          width: 1200
-          height: 800
+          width: 3456
+          height: 2234
           alt: "image"
 
         - image: /img/portfolio/project2/4.jpg
-          width: 1200
-          height: 800
+          width: 1160
+          height: 773
           alt: "image"
 
         - image: /img/portfolio/project2/5.jpg
-          width: 1200
-          height: 800
+          width: 1160
+          height: 773
           alt: "image"
 
     cols: 2 # 2 or 3
@@ -76,8 +76,8 @@ description2:
 finalImage:
     enabled: 1
     image: "/img/portfolio/project2/6.jpg"
-    width: 1200
-    height: 800
+    width: 1160
+    height: 773
     alt: "image"
 
 description3:
