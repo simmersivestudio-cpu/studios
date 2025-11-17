@@ -59,8 +59,8 @@ description2:
 finalImage:
     enabled: 1
     image: "/img/portfolio/project/11.jpg"
-    width: 1200
-    height: 800    
+    width: 900
+    height: 1200    
     alt: "image"
 
 description3:
@@ -69,11 +69,4 @@ description3:
     content: "
         Maintained strict adherence to National Geographic's brand standards while innovating design solutions for digital commerce. Collaborated closely with the NG Brand Marketing group to ensure all visual elements, typography, and user interface components reflected the organization's commitment to exploration, education, and environmental conservation.
     "
-
-finalImage:
-    enabled: 0
-    image: "/img/portfolio/project/11.jpg"
-    width: 900
-    height: 1200    
-    alt: "image"
 ---

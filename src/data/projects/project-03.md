@@ -6,7 +6,8 @@ image: /img/portfolio/project3/1.jpg
 imageWidth: 2000
 imageHeight: 1350
 category:
-     - ECOMMERCE
+     - E-commerce
+     - AI
 
 #full details
 details:

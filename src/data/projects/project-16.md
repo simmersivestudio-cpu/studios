@@ -6,7 +6,7 @@ image: /img/portfolio/project16/2.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
-    - AI
+    - 3D
 autoplay: false
 
 #full details

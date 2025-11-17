@@ -6,6 +6,7 @@ imageWidth: 1160
 imageHeight: 773
 category: 
     - Video
+    - 3D
 
 #full details
 details:

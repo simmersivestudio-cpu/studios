@@ -6,7 +6,7 @@ image: /img/portfolio/project17/1.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:
-     - VR
+     - E-commerce
 autoplay: false    
 
 #full details

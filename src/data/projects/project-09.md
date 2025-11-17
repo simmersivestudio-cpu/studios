@@ -6,6 +6,7 @@ imageWidth: 1200
 imageHeight: 1800
 category:
     - UI UX
+    - E-commerce
 
 #full details
 details:

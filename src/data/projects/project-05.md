@@ -6,7 +6,9 @@ image: /img/portfolio/project5/1.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
+     - AI 
      - VR
+     - Video
 autoplay: false    
 
 #full details

@@ -6,7 +6,7 @@ image: /img/portfolio/project14/1.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
-     - VR
+     - Video
 autoplay: false    
 
 #full details

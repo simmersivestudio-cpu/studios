@@ -6,7 +6,10 @@ image: /img/portfolio/project4/1.mp4
 imageWidth: 1300
 imageHeight: 1300
 category:
-    - AR
+    - AR 
+    - Video
+    - 3D
+    - AI
 autoplay: false
 
 #full details
