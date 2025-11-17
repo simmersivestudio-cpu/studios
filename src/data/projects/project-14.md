@@ -1,80 +1,121 @@
 ---
 #preview
-title: Brand Identity Design
-type: image
-image: /img/portfolio/project14/1.jpg
-imageWidth: 1600
-imageHeight: 1200
+title: U.S. Customs and Border Protection 
+type: video
+image: /img/portfolio/project14/1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - Branding
-    - Design
+     - VR
+autoplay: false    
 
 #full details
 details:
     - label: "Client"
-      value: "Sustainable Fashion Co."
+      value: "U.S. Customs and Border "
 
     - label: "Date"
-      value: "August 2025"
+      value: "2019"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
     enabled: 0
-    content: ""
-
-description1:
-    enabled: 1
-    heading: "Comprehensive Brand Identity"
     content: "
-        Created a complete brand identity system for a sustainable fashion startup, including logo design, color palette, typography, and visual guidelines. The design reflects the company's commitment to environmental responsibility while maintaining a modern, luxurious aesthetic that appeals to conscious consumers.
+       The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor. I created the 3D character, visual scenes and parking area based on the first person account of the ambush scene.
     "
 
+description1:
+    enabled: 0
+    heading: "Survivor Story Documentary"
+    content: "
+        The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor, capturing the emotional and detailed first-person account of the harrowing experience.
+    "
+
+
 gallery: 
-    enabled: 1
+    enabled: 0
     items:
+        - image: /img/portfolio/project14/1.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
         - image: /img/portfolio/project14/2.jpg
-          width: 1000
-          height: 800
-          alt: "Logo Design"
+          width: 1522
+          height: 1216
+          alt: "image"
 
         - image: /img/portfolio/project14/3.jpg
-          width: 1000
-          height: 800
-          alt: "Color Palette"
-
+          width: 2160
+          height: 2160
+          alt: "image"
+        
         - image: /img/portfolio/project14/4.jpg
-          width: 1000
-          height: 1200
-          alt: "Business Cards"
+          width: 2340
+          height: 1256
+          alt: "image"
 
         - image: /img/portfolio/project14/5.jpg
-          width: 1000
-          height: 800
-          alt: "Packaging Design"
+          width: 1522
+          height: 1216
+          alt: "image"
 
-    cols: 2
-    style: "horizontal"
+        - image: /img/portfolio/project14/6.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
+
+        - image: /img/portfolio/project14/7.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
+        - image: /img/portfolio/project14/8.jpg
+          width: 1522
+          height: 1216
+          alt: "image"
+
+        - image: /img/portfolio/project14/9.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
+
+    cols: 3
+    style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Sustainable Design Philosophy"
+    heading: "3D Reconstruction & Visual Storytelling"
     content: "
-        Every element of the brand identity was designed with sustainability in mind, from eco-friendly color choices inspired by nature to minimalist layouts that reduce printing costs. The visual system communicates authenticity and environmental consciousness while remaining versatile across all media.
+        Created detailed 3D characters, visual scenes, and the parking area environment based on the first-person account of the ambush scene. Every element was meticulously designed to accurately represent the survivor's experience and bring authenticity to the visual narrative.
     "
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project14/6.jpg"
-    width: 1400
-    height: 900    
-    alt: "Brand Implementation"
+    image: "/img/portfolio/project14/2.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
 
 description3:
     enabled: 1
-    heading: "Market Impact & Recognition"
+    heading: "Creative Tools"
     content: "
-        The brand identity has helped the client achieve a 200% increase in brand recognition and successful launch in three major markets. The design system has been featured in design publications and won awards for its innovative approach to sustainable branding.
+        Our production pipeline integrated a range of industry-standard creative tools:
+
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+
+
+        Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+
+
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
+
 ---

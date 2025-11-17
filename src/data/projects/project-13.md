@@ -11,14 +11,14 @@ autoplay: false
 
 #full details
 details:
-    - label: "Client"
-      value: "CIA"
+     - label: "Client"
+       value: "U.S. Customs and Border "
 
-    - label: "Date"
-      value: "Oct 2023"
+     - label: "Date"
+       value: "2019"
 
-    - label: "Author"
-      value: "Directoate of Analysis"
+     - label: "Author"
+       value: "Sun Park"
 
 description0:
     enabled: 1

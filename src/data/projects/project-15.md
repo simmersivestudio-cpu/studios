@@ -1,82 +1,106 @@
 ---
 #preview
-title: AI-Powered Data Visualization
+title: U.S. Customs and Border Protection 
 type: video
 image: /img/portfolio/project15/1.mp4
 imageWidth: 1920
 imageHeight: 1080
 category:
-    - AI
-    - Data Visualization
-    - Interactive
+     - VR
+autoplay: false    
 
 #full details
 details:
     - label: "Client"
-      value: "FinTech Analytics"
+      value: "U.S. Customs and Border "
 
     - label: "Date"
-      value: "December 2025"
+      value: "2019"
 
     - label: "Author"
-      value: "Studio S"
+      value: "Sun Park"
 
 description0:
-    enabled: 0
-    content: ""
+    enabled: 1
+    content: "
+       The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor. I created the 3D character, visual scenes and parking area based on the first person account of the ambush scene.
+    "
 
 description1:
-    enabled: 1
-    heading: "Intelligent Data Storytelling"
+    enabled: 0
+    heading: "Survivor Story Documentary"
     content: "
-        Developed an AI-powered data visualization platform that automatically generates insightful charts, graphs, and interactive dashboards from complex datasets. The system uses machine learning to identify patterns, suggest optimal visualization types, and create compelling data narratives that help users make informed decisions.
+        The client wanted to create a video that highlighted the story of one of their agents who survived being ambushed. Filmed and edited the video interview of the survivor, capturing the emotional and detailed first-person account of the harrowing experience.
     "
+
 
 gallery: 
     enabled: 1
     items:
+        - image: /img/portfolio/project15/1.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
         - image: /img/portfolio/project15/2.jpg
-          width: 1200
-          height: 800
-          alt: "Dashboard Interface"
+          width: 1522
+          height: 1216
+          alt: "image"
 
         - image: /img/portfolio/project15/3.jpg
-          width: 1200
-          height: 800
-          alt: "AI Insights"
-
-        - type: video
-          image: /img/portfolio/project15/4.mp4
-          width: 800
-          height: 600
-          alt: "Interactive Demo"
+          width: 2160
+          height: 2160
+          alt: "image"
+        
+        - image: /img/portfolio/project15/4.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
 
         - image: /img/portfolio/project15/5.jpg
-          width: 1200
-          height: 900
-          alt: "Analytics View"
+          width: 1522
+          height: 1216
+          alt: "image"
 
-    cols: 2
-    style: "horizontal"
+        - image: /img/portfolio/project15/6.jpg
+          width: 2160
+          height: 2160
+          alt: "image"
+
+    cols: 3
+    style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Advanced AI & Machine Learning"
+    heading: "3D Reconstruction & Visual Storytelling"
     content: "
-        The platform integrates natural language processing, predictive analytics, and automated insight generation. Users can simply upload their data and receive intelligent recommendations for the most effective ways to visualize and understand their information, making complex data accessible to everyone.
+        Created detailed 3D characters, visual scenes, and the parking area environment based on the first-person account of the ambush scene. Every element was meticulously designed to accurately represent the survivor's experience and bring authenticity to the visual narrative.
     "
 
 finalImage:
-    enabled: 1
-    image: "/img/portfolio/project15/6.jpg"
-    width: 1600
-    height: 1000    
-    alt: "Complete Platform"
+    enabled: 0
+    image: "/img/portfolio/project15/2.jpg"
+    width: 2340
+    height: 1256    
+    alt: "image"
 
 description3:
-    enabled: 1
-    heading: "Transforming Business Intelligence"
+    enabled: 0
+    heading: "Creative Tools"
     content: "
-        This AI-powered visualization tool has revolutionized how businesses interpret their data, reducing analysis time by 70% and improving decision-making accuracy. The platform serves over 50 enterprise clients and processes millions of data points daily with unprecedented speed and insight generation.
+        Our production pipeline integrated a range of industry-standard creative tools:
+
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+
+
+        Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+
+
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
+
 ---

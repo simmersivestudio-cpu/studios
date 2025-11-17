@@ -1,80 +1,97 @@
 ---
 #preview
-title: Hands
-image: /img/portfolio/project5/1.jpg
-imageWidth: 1200
-imageHeight: 1800
+title: Donovan Project | MetaHuman
+type: video
+image: /img/portfolio/project5/1.mp4
+imageWidth: 1920
+imageHeight: 1080
 category:
-    - UI UX
+     - VR
+autoplay: false    
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "CIA"
 
     - label: "Date"
-      value: "April 2022"
+      value: "2024"
 
     - label: "Author"
-      value: "Paul Trueman"
+      value: "Sun Park"
 
 description0:
-    enabled: 0
+    enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+       Collaborated with a team to develop an AI-powered immersive experience that enabled communication with historical figures, showcased at a federal government museum. Through the research process, I gained valuable insights into 
     "
 
 description1:
-    enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    enabled: 0
+    heading: "Donovan Project"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        As a lab coordinator serving the U.S. government, I led the development and presentation of multiple projects that leveraged AI technologies. In collaboration with my team, I demonstrated our expertise in XR by showcasing a variety of VR and AI-powered experiences to the Intelligence Community (IC).
     "
+
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
-          width: 1200
-          height: 1600
+        - image: /img/portfolio/project5/2.jpg
+          width: 2340
+          height: 1256
           alt: "image"
 
-        - image: /img/portfolio/project/7.jpg
-          width: 1200
-          height: 800
+        - image: /img/portfolio/project5/3.jpg
+          width: 1522
+          height: 1216
           alt: "image"
 
-        - image: /img/portfolio/project/9.jpg
-          width: 1200
-          height: 800
+        - image: /img/portfolio/project5/4.jpg
+          width: 2160
+          height: 2160
           alt: "image"
 
-        - image: /img/portfolio/project/10.jpg
-          width: 1200
-          height: 800
-          alt: "image"
-
-    cols: 2
-    style: "horizontal"
+    cols: 3
+    style: "vertical"
 
 description2:
     enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
-    content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+    heading: "Creative Tools:"
+    content: "Our production pipeline integrated a range of industry-standard creative tools:
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+        + Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+        
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/11.jpg"
-    width: 1200
-    height: 800    
+    image: "/img/portfolio/project5/5.jpg"
+    width: 2340
+    height: 1256    
     alt: "image"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Creative Tools"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        Our production pipeline integrated a range of industry-standard creative tools:
+
+
+        Unreal Engine – Served as the core platform for real-time environment rendering, lighting simulation, and interactive user navigation.
+
+
+        Blender – Used for detailed 3D modeling, texturing, and animation of submersibles, mechanical systems, and environmental assets.
+
+
+        Adobe After Effects – Enhanced post-production visuals and compositing, including motion graphics, interface overlays, and environmental effects.
+
+
+        HTC VIVE and Oculus Pro VR Headsets – Provided immersive viewing and interaction capabilities for both development and exhibition environments, ensuring realistic spatial experience and intuitive motion tracking.
     "
+
 ---
