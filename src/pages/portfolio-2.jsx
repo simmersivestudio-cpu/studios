@@ -132,7 +132,7 @@ const PortfolioTwo = (props) => {
                             </div>
                             <br />
                             <div className="mil-text-bg">
-                                <p className="mil-link mil-accent">{item.category}</p>
+                                <p className="mil-link mil-accent">{Array.isArray(item.category) ? item.category.join(' • ') : item.category}</p>
                             </div>
                         </Link>
                         

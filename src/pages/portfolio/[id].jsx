@@ -27,7 +27,7 @@ const ProjectDetail = ( props ) => {
           <div className="row justify-content-center">
               <div className="col-lg-12 col-xl-9 mil-content-frame mil-appearance mil-p-120-0">
 
-                  <h3 className="mil-link mil-text-center mil-appearance mil-softened-60 mil-mb-30" style={{ width: '100%' }}>{postData.category}</h3>
+                  <h3 className="mil-link mil-text-center mil-appearance mil-softened-60 mil-mb-30" style={{ width: '100%' }}>{Array.isArray(postData.category) ? postData.category.join(' • ') : postData.category}</h3>
                   <h3 className="mil-text-center mil-appearance mil-mb-60">{postData.title}</h3>
 
                   <div className="mil-divider mil-appearance mil-mb-30"></div>
