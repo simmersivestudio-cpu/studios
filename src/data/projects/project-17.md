@@ -2,7 +2,8 @@
 #preview
 title: Ultra Botanica
 type: video
-image: /img/portfolio/project17/1.jpg
+image: /img/portfolio/project17/1.mp4
+previewImage: /img/portfolio/project17/1.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:
@@ -37,6 +38,11 @@ description1:
 gallery: 
     enabled: 1
     items:
+        - image: /img/portfolio/project17/1.jpg
+          width: 2340
+          height: 1256
+          alt: "image"
+
         - image: /img/portfolio/project17/2.jpg
           width: 2340
           height: 1256
@@ -58,10 +64,10 @@ description2:
     "
 
 finalImage:
-    enabled: 0
-    image: "/img/portfolio/project17/5.jpg"
-    width: 2340
-    height: 1256    
+    enabled: 1
+    image: "/img/portfolio/project17/4.jpg"
+    width: 1920
+    height: 1080   
     alt: "image"
 
 description3:

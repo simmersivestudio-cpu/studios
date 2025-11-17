@@ -3,6 +3,7 @@
 title: School of Visual Arts, Computer Art, Thesis Work
 type: video
 image: /img/portfolio/project16/2.mp4
+previewImage: /img/portfolio/project16/1.jpg
 imageWidth: 1920
 imageHeight: 1080
 category:
