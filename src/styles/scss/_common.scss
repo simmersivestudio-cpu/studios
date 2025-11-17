@@ -6,10 +6,19 @@ main
 *,
 *:before,
 *:after {
-    user-select: none;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+::selection {
+    background-color: orange;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: orange;
+    color: white;
 }
 
 html {
