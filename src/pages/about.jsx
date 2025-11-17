@@ -23,24 +23,24 @@ const About = ( props ) => {
        },
     "gallery": [
       {
-        "url": "img/content/12.jpg",
-        "width": 1000,
-        "height": 1573
+        "url": "img/content/5.jpg",
+        "width": 2340,
+        "height": 1256
       },
       {
-        "url": "img/content/13.jpg",
-        "width": 1000,
-        "height": 1065
+        "url": "img/content/6.jpg",
+        "width": 1160,
+        "height": 773
       },
       {
-        "url": "img/content/14.jpg",
-        "width": 1000,
-        "height": 1499
+        "url": "img/content/7.jpg",
+        "width": 2340,
+        "height": 1256
       },
       {
-        "url": "img/content/15.jpg",
-        "width": 1000,
-        "height": 792
+        "url": "img/content/8.jpg",
+        "width": 1184,
+        "height": 892
       }
     ]
   }
