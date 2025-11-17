@@ -1,31 +1,49 @@
 {
-    "title": "We do world-class work. Check out our Awards.",
-    "subtitle": "Honors & Awards",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, rem labore et delectus aspernatur.",
+    "title": "Honors & Awards",
+    "subtitle": "Recognition",
+    "description": "A collection of academic achievements, leadership roles, and creative excellence recognizing dedication to design, technology, and artistic innovation.",
     "items": [
         {
-            "title": "Awwwards",
-            "year": "2019",
-            "subtitle": "Website Awards",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum quisquam corrupti rerum nam minus quae."
+            "title": "The Monthly Grind for Artist",
+            "year": "2013",
+            "subtitle": "O.K.I.E Magazine | Oklahoma",
+            "text": "Featured artist profile highlighting creative work and artistic journey."
         },
         {
-            "title": "Site of the day",
-            "year": "2020",
-            "subtitle": "Website Awards",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum quisquam corrupti rerum nam minus quae."
+            "title": "President of Multimedia Design Club",
+            "year": "2013",
+            "subtitle": "Cameron University",
+            "text": "Led the multimedia design community, organizing events and fostering creative collaboration among students."
         },
         {
-            "title": "Best design Awards",
-            "year": "2022",
-            "subtitle": "Website Awards",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum quisquam corrupti rerum nam minus quae."
+            "title": "President of Multimedia Honor Society",
+            "year": "2011-2014",
+            "subtitle": "Cameron University",
+            "text": "Recognized for academic excellence and leadership in multimedia design and technology."
         },
         {
-            "title": "Awwwards",
-            "year": "2023",
-            "subtitle": "Website Awards",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum quisquam corrupti rerum nam minus quae."
+            "title": "Member of Phi Kappa Phi",
+            "year": "2012-2014",
+            "subtitle": "Cameron University",
+            "text": "Honor society membership recognizing academic achievement across all disciplines."
+        },
+        {
+            "title": "President's Honor Roll",
+            "year": "2011-2014",
+            "subtitle": "Cameron University",
+            "text": "Consistent academic excellence throughout undergraduate studies."
+        },
+        {
+            "title": "First Place - Poster Design Competition",
+            "year": "2013",
+            "subtitle": "Computing and Technology Week | Cameron University",
+            "text": "Awarded top honors for poster design showcasing creative excellence in visual communication."
+        },
+        {
+            "title": "Outstanding Freshman English Composition",
+            "year": "2009 & 2011",
+            "subtitle": "Cameron University",
+            "text": "Recognized for exceptional writing and composition skills in freshman English courses."
         }
     ]
 }
