@@ -10,7 +10,7 @@ category:
     - Video
     - 3D
     - AI
-autoplay: false
+autoplay: true
 
 #full details
 details:
