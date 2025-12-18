@@ -33,26 +33,7 @@ description1:
     "
 
 
-gallery: 
-    enabled: 1
-    items:
-        - image: /img/portfolio/project7/2.jpg
-          width: 992
-          height: 1488
-          alt: "image"
 
-        - image: /img/portfolio/project7/3.jpg
-          width: 2420
-          height: 3227
-          alt: "image"
-
-        - image: /img/portfolio/project7/4.jpg
-          width: 992
-          height: 1558
-          alt: "image"
-
-    cols: 3
-    style: "vertical"
 
 description2:
     enabled: 1
