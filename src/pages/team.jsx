@@ -20,7 +20,7 @@ const Team = () => {
         "image": "img/team/2.png",
         "name": "Sun Park",
         "role": "Co-Founder & Creative Director",
-        "bio": "Sun Park is a creative technologist and XR producer whose expertise spans AR, VR, 3D design, and video production. As an XR Producer since 2025, Sun has been developing an interactive 3D storytelling project that merges cutting-edge XR technology with immersive installation experiences. Previously, as an Interactive Producer and Motion Graphic Designer for the U.S. Federal Government, Sun created high-security visual content for senior policymakers — including data visualizations, motion graphics, and 3D assets — and presented multiple VR and AI-powered projects to Intelligence Community stakeholders. His creative leadership reflects a commitment to innovation, precision, and meaningful storytelling through emerging technology."
+        "bio": "Sun Park is a creative technologist and XR producer whose expertise spans AR, VR, 3D design, and video production. As an XR Producer since 2025, Sun has been developing an interactive 3D storytelling project that merges cutting-edge XR technology with immersive installation experiences. Previously, as an Interactive Producer and Motion Graphic Designer for the U.S. Federal Government, Sun created high-security visual content for senior policymakers — including data visualizations, motion graphics, and 3D assets — and presented multiple VR and AI-powered projects to Intelligence Community stakeholders. Her creative leadership reflects a commitment to innovation, precision, and meaningful storytelling through emerging technology."
       }
     ]
   }
